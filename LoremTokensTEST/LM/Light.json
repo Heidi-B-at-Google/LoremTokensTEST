@@ -1,0 +1,157 @@
+{
+  "sys": {
+    "color": {
+      "primary": {
+        "default": {
+          "value": "{ref.palette.primary.40}",
+          "type": "color"
+        },
+        "on-primary": {
+          "value": "{ref.palette.primary.100}",
+          "type": "color"
+        },
+        "primary-container": {
+          "value": "{ref.palette.primary.90}",
+          "type": "color"
+        },
+        "on-primary-container": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{ref.palette.secondary.40}",
+          "type": "color"
+        },
+        "on-secondary": {
+          "value": "{ref.palette.secondary.100}",
+          "type": "color"
+        },
+        "secondary-container": {
+          "value": "{ref.palette.secondary.90}",
+          "type": "color"
+        },
+        "on-secondary-container": {
+          "value": "{ref.palette.secondary.10}",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{ref.palette.tertiary.40}",
+          "type": "color"
+        },
+        "on-tertiary": {
+          "value": "{ref.palette.tertiary.100}",
+          "type": "color"
+        },
+        "tertiary-container": {
+          "value": "{ref.palette.tertiary.90}",
+          "type": "color"
+        },
+        "on-tertiary-container": {
+          "value": "{ref.palette.tertiary.10}",
+          "type": "color"
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{ref.palette.error.40}",
+          "type": "color"
+        },
+        "on-error": {
+          "value": "{ref.palette.error.100}",
+          "type": "color"
+        },
+        "error-container": {
+          "value": "{ref.palette.error.80}",
+          "type": "color"
+        },
+        "on-error-container": {
+          "value": "{ref.palette.error.10}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{ref.palette.success.40}",
+          "type": "color",
+          "description": "Success icons, outlines, highlights, etc"
+        },
+        "on-success": {
+          "value": "{ref.palette.success.100}",
+          "type": "color"
+        },
+        "success-container": {
+          "value": "{ref.palette.success.90}",
+          "type": "color"
+        },
+        "on-success-container": {
+          "value": "{ref.palette.success.10}",
+          "type": "color"
+        }
+      },
+      "caution": {
+        "default": {
+          "value": "{ref.palette.caution.40}",
+          "type": "color",
+          "description": "Caution icons, outlines, highlights, etc"
+        },
+        "on-caution": {
+          "value": "{ref.palette.caution.100}",
+          "type": "color"
+        },
+        "caution-container": {
+          "value": "{ref.palette.caution.90}",
+          "type": "color"
+        },
+        "on-caution-container": {
+          "value": "{ref.palette.caution.10}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{ref.palette.warning.40}",
+          "type": "color",
+          "description": "Warning icons, outlines, highlights, etc"
+        },
+        "on-warning": {
+          "value": "{ref.palette.warning.100}",
+          "type": "color"
+        },
+        "warning-container": {
+          "value": "{ref.palette.warning.90}",
+          "type": "color"
+        },
+        "on-warning-container": {
+          "value": "{ref.palette.warning.10}",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "background": {
+          "value": "{ref.palette.neutral.99}",
+          "type": "color",
+          "description": "base color"
+        },
+        "on-background": {
+          "value": "{ref.palette.neutral.10}",
+          "type": "color",
+          "description": "content on top of background"
+        },
+        "surface-variant": {
+          "value": "{ref.palette.neutral-variant.90}",
+          "type": "color",
+          "description": "alternate surface color"
+        },
+        "on-surface-variant": {
+          "value": "{ref.palette.neutral-variant.30}",
+          "type": "color",
+          "description": "content on top of surface-variant"
+        }
+      }
+    }
+  }
+}
