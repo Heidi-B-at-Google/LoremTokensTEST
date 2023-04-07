@@ -1,85 +1,209 @@
 {
   "dimension": {
     "scale": {
-      "value": "2",
+      "value": "1rem",
       "type": "dimension"
     },
-    "xs": {
-      "value": "4",
+    "xxs": {
+      "value": "{dimension.scale}*0.5",
       "type": "dimension"
     },
-    "sm": {
-      "value": "{dimension.xs} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "md": {
-      "value": "{dimension.sm} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "lg": {
-      "value": "{dimension.md} * {dimension.scale}",
-      "type": "dimension"
-    },
-    "xl": {
-      "value": "{dimension.lg} * {dimension.scale}",
+    "xxxs": {
+      "value": "{dimension.scale}*0.25",
       "type": "dimension"
     }
   },
-  "ref": {
-    "space": {
-      "xs": {
-        "value": "{dimension.xs}",
-        "type": "spacing"
-      },
-      "sm": {
-        "value": "{dimension.sm}",
-        "type": "spacing"
-      },
-      "md": {
-        "value": "{dimension.md}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{dimension.lg}",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "{dimension.xl}",
-        "type": "spacing"
-      },
-      "multi-value": {
-        "value": "{dimension.sm} {dimension.xl}",
+  "sys": {
+    "spacer": {
+      "4": {
+        "value": "{dimension.scale}*0.25",
         "type": "spacing",
-        "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
+        "description": "Vertical space between items"
+      },
+      "8": {
+        "value": "{dimension.scale}*0.5",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "12": {
+        "value": "{dimension.scale}*0.75",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "16": {
+        "value": "{dimension.scale}",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "24": {
+        "value": "{dimension.scale}*1.5",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "32": {
+        "value": "{dimension.scale}*2",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "48": {
+        "value": "{dimension.scale}*3",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "64": {
+        "value": "{dimension.scale}*4",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "96": {
+        "value": "{dimension.scale}*6",
+        "type": "spacing",
+        "description": "Vertical space between items"
       }
     },
     "border-radius": {
       "xs": {
-        "value": "{dimension.xs}",
+        "value": "{dimension.scale}*0.25",
         "type": "borderRadius"
       },
       "sm": {
-        "value": "{dimension.sm}",
+        "value": "{dimension.scale}*0.5",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{dimension.md}",
+        "value": "{dimension.scale}*0.75",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{dimension.lg}",
+        "value": "{dimension.scale}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{dimension.xl}",
+        "value": "{dimension.scale}*1.25",
         "type": "borderRadius"
       },
       "multi-value": {
-        "value": "{ref.border-radius.sm} {ref.border-radius.lg}",
+        "value": "{sys.border-radius.sm} {sys.border-radius.lg}",
         "type": "borderRadius",
         "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
       }
     },
+    "typescale": {
+      "heading": {
+        "h1": {
+          "value": "{ref.typescale.base}*5.5",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h2": {
+          "value": "{ref.typescale.base}*4",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h3": {
+          "value": "{ref.typescale.base}*3.25",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h4": {
+          "value": "{ref.typescale.base}*2.75",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h5": {
+          "value": "{ref.typescale.base}*2",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h6": {
+          "value": "{ref.typescale.base}*1.5",
+          "type": "fontSizes",
+          "description": "headline"
+        },
+        "h7": {
+          "value": "{ref.typescale.base}*1.25",
+          "type": "fontSizes",
+          "description": "headline"
+        }
+      },
+      "body": {
+        "sm": {
+          "value": "{ref.typescale.base}*0.75",
+          "type": "fontSizes",
+          "description": "small body"
+        },
+        "md": {
+          "value": "{ref.typescale.base}",
+          "type": "fontSizes",
+          "description": "medium body"
+        },
+        "lg": {
+          "value": "{ref.typescale.base}*1.25",
+          "type": "fontSizes",
+          "description": "large body"
+        }
+      },
+      "label": {
+        "sm": {
+          "value": "{sys.typescale.body.sm}*0.82",
+          "type": "fontSizes",
+          "description": "CTA / eyebrow"
+        },
+        "default": {
+          "value": "{sys.typescale.body.sm}",
+          "type": "fontSizes",
+          "description": "CTA / eyebrow"
+        }
+      },
+      "body-metadata": {
+        "sm": {
+          "value": "{ref.typescale.base}*0.625",
+          "type": "fontSizes",
+          "description": "legal / footer"
+        },
+        "md": {
+          "value": "{ref.typescale.base}*0.75",
+          "type": "fontSizes",
+          "description": "legal / footer"
+        }
+      },
+      "display": {
+        "d1": {
+          "value": "{ref.typescale.base}*12.5",
+          "type": "fontSizes",
+          "description": "display"
+        },
+        "d2": {
+          "value": "{ref.typescale.base}*10",
+          "type": "fontSizes",
+          "description": "display"
+        },
+        "d3": {
+          "value": "{ref.typescale.base}*7.5",
+          "type": "fontSizes",
+          "description": "display"
+        }
+      }
+    },
+    "padding": {
+      "md": {
+        "value": {
+          "verticalPadding": "1rem",
+          "horizontalPadding": "1rem"
+        },
+        "type": "composition"
+      },
+      "top-horizontal": {
+        "value": "{dimension.scale} {dimension.scale} 0",
+        "type": "spacing"
+      },
+      "horizontal-bottom": {
+        "value": "0 {dimension.xxs} {dimension.xxxs}",
+        "type": "spacing"
+      }
+    }
+  },
+  "ref": {
     "palette": {
       "primary": {
         "0": {
@@ -646,6 +770,390 @@
         "type": "fontSizes",
         "description": "base unit for all typestyles"
       }
+    },
+    "scale": {
+      "3xs": {
+        "value": "{ref.scale.2xs}*0.5",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "2xs": {
+        "value": "{ref.scale.xs}*0.667",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "xs": {
+        "value": "{ref.scale.sm}*0.75",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "sm": {
+        "value": "{dimension.scale}",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "md": {
+        "value": "{ref.scale.sm}*1.25",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "lg": {
+        "value": "{ref.scale.md}*1.25",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "xl": {
+        "value": "{ref.scale.lg}*1.25",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "2xl": {
+        "value": "{ref.scale.xl}*1.25",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      },
+      "3xl": {
+        "value": "{ref.scale.2xl}*1.25",
+        "type": "sizing",
+        "description": "Responsive layout multiplier"
+      }
+    },
+    "padding": {
+      "top": {
+        "4": {
+          "value": {
+            "paddingTop": "{dimension.scale}*0.25"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "8": {
+          "value": {
+            "paddingTop": "{dimension.scale}*0.5"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "12": {
+          "value": {
+            "paddingTop": "{dimension.scale}*0.75"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "16": {
+          "value": {
+            "paddingTop": "{dimension.scale}"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "20": {
+          "value": {
+            "paddingTop": "{dimension.scale}*1.25"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "24": {
+          "value": {
+            "paddingTop": "{dimension.scale}*1.5"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "28": {
+          "value": {
+            "paddingTop": "{dimension.scale}*1.75"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "32": {
+          "value": {
+            "paddingTop": "{dimension.scale}*2"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "36": {
+          "value": {
+            "paddingTop": "{dimension.scale}*2.25"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "40": {
+          "value": {
+            "paddingTop": "{dimension.scale}*2.5"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "44": {
+          "value": {
+            "paddingTop": "{dimension.scale}*2.75"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "48": {
+          "value": {
+            "paddingTop": "{dimension.scale}*3"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "52": {
+          "value": {
+            "paddingTop": "{dimension.scale}*3.25"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "56": {
+          "value": {
+            "paddingTop": "{dimension.scale}*3.5"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "60": {
+          "value": {
+            "paddingTop": "{dimension.scale}*3.75"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        },
+        "64": {
+          "value": {
+            "paddingTop": "{dimension.scale}*4"
+          },
+          "type": "composition",
+          "description": "Top only padding within components and containers"
+        }
+      },
+      "vertical": {
+        "4": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*.25"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "8": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*.5"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "12": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*.75"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "16": {
+          "value": {
+            "verticalPadding": "{dimension.scale}"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "20": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*1.25"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "24": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*1.5"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "28": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*1.5"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "32": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*2"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "36": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*2.25"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "40": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*2.5"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "44": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*2.75"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "48": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*3"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "52": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*3.25"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "56": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*3.5"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "60": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*3.75"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        },
+        "64": {
+          "value": {
+            "verticalPadding": "{dimension.scale}*4"
+          },
+          "type": "composition",
+          "description": "Vertical padding within components and containers"
+        }
+      },
+      "horizontal": {
+        "4": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*0.25"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "12": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*0.75"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "16": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "20": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*1.25"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "24": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*1.5"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "28": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*1.75"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "32": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*2"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "36": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*2.25"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "40": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*2.5"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "44": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*2.75"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "48": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*3"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "52": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*3.25"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "56": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*3.5"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "60": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*3.75"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        },
+        "64": {
+          "value": {
+            "horizontalPadding": "{dimension.scale}*4"
+          },
+          "type": "composition",
+          "description": "Horizontal padding within components and containers"
+        }
+      }
     }
   },
   "leading": {
@@ -658,110 +1166,11 @@
       "type": "paragraphSpacing"
     }
   },
-  "sys": {
-    "typescale": {
-      "heading": {
-        "h1": {
-          "value": "{ref.typescale.base}*5.5",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h2": {
-          "value": "{ref.typescale.base}*4",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h3": {
-          "value": "{ref.typescale.base}*3.25",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h4": {
-          "value": "{ref.typescale.base}*2.75",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h5": {
-          "value": "{ref.typescale.base}*2",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h6": {
-          "value": "{ref.typescale.base}*1.5",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h7": {
-          "value": "{ref.typescale.base}*1.25",
-          "type": "fontSizes",
-          "description": "headline"
-        }
-      },
-      "body": {
-        "sm": {
-          "value": "{ref.typescale.base}*0.75",
-          "type": "fontSizes",
-          "description": "small body"
-        },
-        "md": {
-          "value": "{ref.typescale.base}",
-          "type": "fontSizes",
-          "description": "medium body"
-        },
-        "lg": {
-          "value": "{ref.typescale.base}*1.25",
-          "type": "fontSizes",
-          "description": "large body"
-        }
-      },
-      "label": {
-        "sm": {
-          "value": "{sys.typescale.body.sm}*0.82",
-          "type": "fontSizes",
-          "description": "CTA / eyebrow"
-        },
-        "default": {
-          "value": "{sys.typescale.body.sm}",
-          "type": "fontSizes",
-          "description": "CTA / eyebrow"
-        }
-      },
-      "body-metadata": {
-        "sm": {
-          "value": "{ref.typescale.base}*0.625",
-          "type": "fontSizes",
-          "description": "legal / footer"
-        },
-        "md": {
-          "value": "{ref.typescale.base}*0.75",
-          "type": "fontSizes",
-          "description": "legal / footer"
-        }
-      },
-      "display": {
-        "d1": {
-          "value": "{ref.typescale.base}*12.5",
-          "type": "fontSizes",
-          "description": "display"
-        },
-        "d2": {
-          "value": "{ref.typescale.base}*10",
-          "type": "fontSizes",
-          "description": "display"
-        },
-        "d3": {
-          "value": "{ref.typescale.base}*7.5",
-          "type": "fontSizes",
-          "description": "display"
-        }
-      }
-    },
+  "comp": {
     "padding": {
-      "container": {
-        "value": {
-          "paddingBottom": "{dimension.sm}"
-        },
-        "type": "composition"
+      "CTA": {
+        "value": "10px 24px 10px 16px",
+        "type": "spacing"
       }
     }
   }

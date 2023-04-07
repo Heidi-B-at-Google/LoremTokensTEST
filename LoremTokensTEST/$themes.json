@@ -4,8 +4,7 @@
     "name": "Lorem Core - Light",
     "selectedTokenSets": {
       "core": "source",
-      "LM/Light": "enabled",
-      "LM/Dark": "disabled"
+      "LM/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "sys.color.primary.default": "S:c464a3c8009469570c16d657758c6a305eb0fb9a,",
@@ -47,7 +46,6 @@
     "name": "Lorem Core - Dark",
     "selectedTokenSets": {
       "core": "source",
-      "LM/Light": "disabled",
       "LM/Dark": "enabled"
     },
     "$figmaStyleReferences": {

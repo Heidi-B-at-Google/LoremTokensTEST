@@ -11,7 +11,7 @@
       }
     },
     "borderRadius": {
-      "value": "{ref.border-radius.lg}",
+      "value": "{sys.border-radius.lg}",
       "type": "borderRadius"
     },
     "borderWidth": {
@@ -21,7 +21,7 @@
   },
   "card": {
     "borderRadius": {
-      "value": "{ref.border-radius.lg}",
+      "value": "{sys.border-radius.lg}",
       "type": "borderRadius"
     },
     "background": {
