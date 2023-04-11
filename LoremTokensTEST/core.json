@@ -59,6 +59,16 @@
         "value": "{dimension.scale}*6",
         "type": "spacing",
         "description": "Vertical space between items"
+      },
+      "144": {
+        "value": "{dimension.scale}*9",
+        "type": "spacing",
+        "description": "Vertical space between items"
+      },
+      "256": {
+        "value": "{dimension.scale}*16",
+        "type": "spacing",
+        "description": "Vertical space between items"
       }
     },
     "border-radius": {
