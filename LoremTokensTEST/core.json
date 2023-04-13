@@ -215,7 +215,7 @@
   },
   "ref": {
     "palette": {
-      "primary": {
+      "neutral-variant": {
         "0": {
           "value": "#000000",
           "type": "color"
@@ -269,7 +269,7 @@
           "type": "color"
         }
       },
-      "neutral-variant": {
+      "primary": {
         "0": {
           "value": "#000000",
           "type": "color"
@@ -320,6 +320,10 @@
         },
         "100": {
           "value": "#ffffff",
+          "type": "color"
+        },
+        "gradient": {
+          "value": "linear-gradient(45deg, #ffffff 10%, #DDE3E4 50%, #000000 90%)",
           "type": "color"
         }
       },
@@ -431,17 +435,17 @@
           "type": "color"
         }
       },
-      "neutral": {
+      "secondary": {
         "0": {
           "value": "#000000",
           "type": "color"
         },
         "10": {
-          "value": "#1C1B1F",
+          "value": "#1F1B1B",
           "type": "color"
         },
         "20": {
-          "value": "#313033",
+          "value": "#333030",
           "type": "color"
         },
         "30": {
@@ -477,7 +481,7 @@
           "type": "color"
         },
         "99": {
-          "value": "#F8F8F8",
+          "value": "#F4F3F3",
           "type": "color"
         },
         "100": {
@@ -527,7 +531,7 @@
           "type": "color"
         },
         "95": {
-          "value": "#DAFE8A",
+          "value": "#E9FFB7",
           "type": "color"
         },
         "99": {
@@ -585,7 +589,7 @@
           "type": "color"
         },
         "99": {
-          "value": "#FFFBFF",
+          "value": "#FFFAEC",
           "type": "color"
         },
         "100": {
@@ -593,7 +597,7 @@
           "type": "color"
         }
       },
-      "warning": {
+      "orange": {
         "0": {
           "value": "#000000",
           "type": "color"
@@ -639,7 +643,7 @@
           "type": "color"
         },
         "99": {
-          "value": "#FFFBFF",
+          "value": "#FFF6EF",
           "type": "color"
         },
         "100": {
@@ -653,15 +657,15 @@
           "type": "color"
         },
         "10": {
-          "value": "#21005D",
+          "value": "#1E0055",
           "type": "color"
         },
         "20": {
-          "value": "#381E72",
+          "value": "#350081",
           "type": "color"
         },
         "30": {
-          "value": "#4F378B",
+          "value": "#4D00BA",
           "type": "color"
         },
         "40": {
@@ -693,7 +697,7 @@
           "type": "color"
         },
         "99": {
-          "value": "#FFFBFE",
+          "value": "#FBF6FF",
           "type": "color"
         },
         "100": {
@@ -701,7 +705,61 @@
           "type": "color"
         }
       },
-      "secondary": {
+      "blue": {
+        "0": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "10": {
+          "value": "#00174c",
+          "type": "color"
+        },
+        "20": {
+          "value": "#00297a",
+          "type": "color"
+        },
+        "30": {
+          "value": "#003392",
+          "type": "color"
+        },
+        "40": {
+          "value": "#003daa",
+          "type": "color"
+        },
+        "50": {
+          "value": "#0047c4",
+          "type": "color"
+        },
+        "60": {
+          "value": "#0052de",
+          "type": "color"
+        },
+        "70": {
+          "value": "#356df9",
+          "type": "color"
+        },
+        "80": {
+          "value": "#638aff",
+          "type": "color"
+        },
+        "90": {
+          "value": "#8da8ff",
+          "type": "color"
+        },
+        "95": {
+          "value": "#b4c4ff",
+          "type": "color"
+        },
+        "99": {
+          "value": "#dbe1ff",
+          "type": "color"
+        },
+        "100": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "neutral": {
         "0": {
           "value": "#000000",
           "type": "color"
@@ -772,11 +830,11 @@
     },
     "font-family": {
       "heading": {
-        "value": "Inter",
+        "value": "Scto Grotesk A",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Roboto",
+        "value": "Scto Grotesk A",
         "type": "fontFamilies"
       },
       "icon": {
