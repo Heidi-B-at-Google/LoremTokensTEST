@@ -21,24 +21,38 @@
           "value": "{ref.palette.primary.10}",
           "type": "color",
           "description": "on-primary-container"
+        },
+        "gradient": {
+          "value": "linear-gradient(45deg, #ffffff 0%, #B9C4C7 50%, #000000 100%)",
+          "type": "color",
+          "description": "option for brand color gradient"
         }
       },
       "secondary": {
         "default": {
-          "value": "{ref.palette.primary.40}",
-          "type": "color"
+          "value": "{ref.palette.secondary.40}",
+          "type": "color",
+          "description": "secondary\n"
         },
         "on-secondary": {
-          "value": "{ref.palette.primary.100}",
-          "type": "color"
+          "value": "{ref.palette.secondary.100}",
+          "type": "color",
+          "description": "on-secondary\n"
         },
         "secondary-container": {
-          "value": "{ref.palette.primary.90}",
-          "type": "color"
+          "value": "{ref.palette.secondary.90}",
+          "type": "color",
+          "description": "secondary container"
         },
         "on-secondary-container": {
-          "value": "{ref.palette.primary.10}",
-          "type": "color"
+          "value": "{ref.palette.secondary.10}",
+          "type": "color",
+          "description": "on-secondary-container\n"
+        },
+        "gradient": {
+          "value": "linear-gradient(45deg, #ffffff 0%, #939094 50%, #1F1B1B 100%)",
+          "type": "color",
+          "description": "option if brand has secondary gradient"
         }
       },
       "tertiary": {
@@ -136,12 +150,12 @@
       },
       "surface": {
         "background": {
-          "value": "{ref.palette.secondary.99}",
+          "value": "{ref.palette.primary.99}",
           "type": "color",
           "description": "base color"
         },
         "on-background": {
-          "value": "{ref.palette.secondary.10}",
+          "value": "{ref.palette.primary.10}",
           "type": "color",
           "description": "content on top of background"
         },
