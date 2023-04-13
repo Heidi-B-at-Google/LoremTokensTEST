@@ -21,19 +21,19 @@
       },
       "secondary": {
         "default": {
-          "value": "{ref.palette.secondary.40}",
+          "value": "{ref.palette.neutral-variant.40}",
           "type": "color"
         },
         "on-secondary": {
-          "value": "{ref.palette.secondary.100}",
+          "value": "{ref.palette.neutral-variant.100}",
           "type": "color"
         },
         "secondary-container": {
-          "value": "{ref.palette.secondary.90}",
+          "value": "{ref.palette.neutral-variant.90}",
           "type": "color"
         },
         "on-secondary-container": {
-          "value": "{ref.palette.secondary.10}",
+          "value": "{ref.palette.neutral-variant.10}",
           "type": "color"
         }
       },
