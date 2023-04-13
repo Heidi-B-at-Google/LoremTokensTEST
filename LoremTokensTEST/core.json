@@ -307,15 +307,15 @@
           "type": "color"
         },
         "90": {
-          "value": "#a3adaf",
+          "value": "#B9C4C7",
           "type": "color"
         },
         "95": {
-          "value": "#dbe4e6",
+          "value": "#DDE3E4",
           "type": "color"
         },
         "99": {
-          "value": "#f2fbfd",
+          "value": "#EDF0F1",
           "type": "color"
         },
         "100": {
@@ -747,7 +747,7 @@
           "type": "color"
         },
         "99": {
-          "value": "#e1e3e3",
+          "value": "#F4F3F3",
           "type": "color"
         },
         "100": {
