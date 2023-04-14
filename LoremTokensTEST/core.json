@@ -215,7 +215,7 @@
   },
   "ref": {
     "palette": {
-      "neutral-variant": {
+      "neutral": {
         "0": {
           "value": "#000000",
           "type": "color"
@@ -759,7 +759,7 @@
           "type": "color"
         }
       },
-      "neutral": {
+      "neutral-variant": {
         "0": {
           "value": "#000000",
           "type": "color"

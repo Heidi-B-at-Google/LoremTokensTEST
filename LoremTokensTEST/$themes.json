@@ -35,10 +35,10 @@
       "sys.color.warning.on-warning": "S:fc80fe92068fba7341dd3d065f07d83a5663ef28,",
       "sys.color.warning.warning-container": "S:e966f3d32c1b48a046922403c33efe531f5c0e22,",
       "sys.color.warning.on-warning-container": "S:16a513c540a796f84862871013105257dcf41aaa,",
-      "sys.color.surface.background": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
-      "sys.color.surface.on-background": "S:7db3431beea8bc3cf544d455641673955f7fd797,",
-      "sys.color.surface.surface-variant": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
-      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,"
+      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,",
+      "sys.color.surface.1": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
+      "sys.color.surface.2": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
+      "sys.color.surface.on-base": "S:7db3431beea8bc3cf544d455641673955f7fd797,"
     }
   },
   {
@@ -77,10 +77,10 @@
       "sys.color.warning.on-warning": "S:fc80fe92068fba7341dd3d065f07d83a5663ef28,",
       "sys.color.warning.warning-container": "S:e966f3d32c1b48a046922403c33efe531f5c0e22,",
       "sys.color.warning.on-warning-container": "S:16a513c540a796f84862871013105257dcf41aaa,",
-      "sys.color.surface.background": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
-      "sys.color.surface.on-background": "S:7db3431beea8bc3cf544d455641673955f7fd797,",
-      "sys.color.surface.surface-variant": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
-      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,"
+      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,",
+      "sys.color.surface.1": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
+      "sys.color.surface.2": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
+      "sys.color.surface.on-base": "S:7db3431beea8bc3cf544d455641673955f7fd797,"
     }
   },
   {
@@ -120,10 +120,10 @@
       "sys.color.warning.on-warning": "S:fc80fe92068fba7341dd3d065f07d83a5663ef28,",
       "sys.color.warning.warning-container": "S:e966f3d32c1b48a046922403c33efe531f5c0e22,",
       "sys.color.warning.on-warning-container": "S:16a513c540a796f84862871013105257dcf41aaa,",
-      "sys.color.surface.background": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
-      "sys.color.surface.on-background": "S:7db3431beea8bc3cf544d455641673955f7fd797,",
-      "sys.color.surface.surface-variant": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
-      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,"
+      "sys.color.surface.on-surface-variant": "S:80118476b4aa616902f8a0aedae647cee45a1100,",
+      "sys.color.surface.1": "S:d25b5850c01ae6111b007ae88a950588a0100b5b,",
+      "sys.color.surface.2": "S:03cc79f7b4bce68bfe8ada08212672383bef1cfb,",
+      "sys.color.surface.on-base": "S:7db3431beea8bc3cf544d455641673955f7fd797,"
     }
   }
 ]

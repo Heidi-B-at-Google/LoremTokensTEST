@@ -149,23 +149,28 @@
         }
       },
       "surface": {
-        "background": {
+        "0": {
+          "value": "{ref.palette.primary.100}",
+          "type": "color",
+          "description": "Base"
+        },
+        "1": {
           "value": "{ref.palette.primary.99}",
           "type": "color",
           "description": "base color"
         },
-        "on-background": {
-          "value": "{ref.palette.primary.10}",
-          "type": "color",
-          "description": "content on top of background"
-        },
-        "surface-variant": {
-          "value": "{ref.palette.primary.90}",
+        "2": {
+          "value": "{ref.palette.secondary.99}",
           "type": "color",
           "description": "alternate surface color"
         },
+        "on-base": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color",
+          "description": "content on top of base"
+        },
         "on-surface-variant": {
-          "value": "{ref.palette.primary.30}",
+          "value": "{ref.palette.secondary.10}",
           "type": "color",
           "description": "content on top of surface-variant"
         }
