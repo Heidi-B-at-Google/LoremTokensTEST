@@ -72,28 +72,36 @@
       }
     },
     "border-radius": {
-      "xs": {
+      "4": {
         "value": "{dimension.scale}*0.25",
         "type": "borderRadius"
       },
-      "sm": {
+      "8": {
         "value": "{dimension.scale}*0.5",
         "type": "borderRadius"
       },
-      "md": {
+      "12": {
         "value": "{dimension.scale}*0.75",
         "type": "borderRadius"
       },
-      "lg": {
+      "16": {
         "value": "{dimension.scale}",
         "type": "borderRadius"
       },
-      "xl": {
+      "20": {
         "value": "{dimension.scale}*1.25",
         "type": "borderRadius"
       },
+      "32": {
+        "value": "{dimension.scale}*2",
+        "type": "borderRadius"
+      },
+      "40": {
+        "value": "{dimension.scale}*2.5",
+        "type": "borderRadius"
+      },
       "multi-value": {
-        "value": "{sys.border-radius.sm} {sys.border-radius.lg}",
+        "value": "{sys.border-radius.8} {sys.border-radius.16}",
         "type": "borderRadius",
         "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
       }
@@ -1294,6 +1302,16 @@
         "value": "12px 16px 12px 16px",
         "type": "spacing",
         "description": "top, right, bottom, left"
+      },
+      "icon-button-sm": {
+        "value": "12px 12px",
+        "type": "spacing",
+        "description": "sm/md icon button"
+      },
+      "icon-button-lg": {
+        "value": "24px 24px",
+        "type": "spacing",
+        "description": "lg icon button\n"
       }
     }
   }
