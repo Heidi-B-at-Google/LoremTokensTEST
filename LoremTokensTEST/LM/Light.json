@@ -55,77 +55,59 @@
           "description": "option if brand has secondary gradient"
         }
       },
-      "tertiary": {
-        "default": {
-          "value": "{ref.palette.tertiary.40}",
-          "type": "color"
-        },
-        "on-tertiary": {
-          "value": "{ref.palette.tertiary.100}",
-          "type": "color"
-        },
-        "tertiary-container": {
-          "value": "{ref.palette.tertiary.90}",
-          "type": "color"
-        },
-        "on-tertiary-container": {
-          "value": "{ref.palette.tertiary.10}",
-          "type": "color"
-        }
-      },
       "error": {
         "default": {
-          "value": "{ref.palette.error.40}",
+          "value": "{ref.palette.red.40}",
           "type": "color"
         },
         "on-error": {
-          "value": "{ref.palette.error.100}",
+          "value": "{ref.palette.red.100}",
           "type": "color"
         },
         "error-container": {
-          "value": "{ref.palette.error.80}",
+          "value": "{ref.palette.red.80}",
           "type": "color"
         },
         "on-error-container": {
-          "value": "{ref.palette.error.10}",
+          "value": "{ref.palette.red.10}",
           "type": "color"
         }
       },
       "success": {
         "default": {
-          "value": "{ref.palette.success.40}",
+          "value": "{ref.palette.green.40}",
           "type": "color",
           "description": "Success icons, outlines, highlights, etc"
         },
         "on-success": {
-          "value": "{ref.palette.success.100}",
+          "value": "{ref.palette.green.100}",
           "type": "color"
         },
         "success-container": {
-          "value": "{ref.palette.success.90}",
+          "value": "{ref.palette.green.90}",
           "type": "color"
         },
         "on-success-container": {
-          "value": "{ref.palette.success.10}",
+          "value": "{ref.palette.green.10}",
           "type": "color"
         }
       },
       "caution": {
         "default": {
-          "value": "{ref.palette.caution.40}",
+          "value": "{ref.palette.yellow.40}",
           "type": "color",
           "description": "Caution icons, outlines, highlights, etc"
         },
         "on-caution": {
-          "value": "{ref.palette.caution.100}",
+          "value": "{ref.palette.yellow.100}",
           "type": "color"
         },
         "caution-container": {
-          "value": "{ref.palette.caution.90}",
+          "value": "{ref.palette.yellow.90}",
           "type": "color"
         },
         "on-caution-container": {
-          "value": "{ref.palette.caution.10}",
+          "value": "{ref.palette.yellow.10}",
           "type": "color"
         }
       },

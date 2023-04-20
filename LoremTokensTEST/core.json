@@ -15,63 +15,67 @@
   },
   "sys": {
     "spacer": {
-      "4": {
+      "25": {
         "value": "{dimension.scale}*0.25",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "8": {
+      "50": {
         "value": "{dimension.scale}*0.5",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "12": {
+      "75": {
         "value": "{dimension.scale}*0.75",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "16": {
+      "100": {
         "value": "{dimension.scale}",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "24": {
+      "150": {
         "value": "{dimension.scale}*1.5",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "32": {
+      "200": {
         "value": "{dimension.scale}*2",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "48": {
+      "300": {
         "value": "{dimension.scale}*3",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "64": {
+      "400": {
         "value": "{dimension.scale}*4",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "96": {
+      "600": {
         "value": "{dimension.scale}*6",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "144": {
+      "900": {
         "value": "{dimension.scale}*9",
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "256": {
+      "1600": {
         "value": "{dimension.scale}*16",
         "type": "spacing",
         "description": "Vertical space between items"
       }
     },
     "border-radius": {
+      "4": {
+        "value": "{dimension.scale}*0.25",
+        "type": "borderRadius"
+      },
       "8": {
         "value": "{dimension.scale}*0.5",
         "type": "borderRadius"
@@ -196,13 +200,6 @@
       }
     },
     "padding": {
-      "md": {
-        "value": {
-          "verticalPadding": "1rem",
-          "horizontalPadding": "1rem"
-        },
-        "type": "composition"
-      },
       "top-horizontal": {
         "value": "{dimension.scale} {dimension.scale} 0",
         "type": "spacing"
