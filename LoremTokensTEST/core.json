@@ -1,18 +1,4 @@
 {
-  "dimension": {
-    "scale": {
-      "value": "1rem",
-      "type": "dimension"
-    },
-    "xxs": {
-      "value": "{dimension.scale}*0.5",
-      "type": "dimension"
-    },
-    "xxxs": {
-      "value": "{dimension.scale}*0.25",
-      "type": "dimension"
-    }
-  },
   "sys": {
     "spacer": {
       "25": {
