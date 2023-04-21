@@ -322,6 +322,10 @@
         "100": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "gradient": {
+          "value": "linear-gradient(45deg, #ffffff 10%, #DDE3E4 50%, #000000 90%)",
+          "type": "color"
         }
       },
       "neutral": {
@@ -375,6 +379,10 @@
         },
         "100": {
           "value": "#FFFFFF",
+          "type": "color"
+        },
+        "gradient": {
+          "value": "linear-gradient(45deg, #ffffff 10%, #DDE3E4 50%, #000000 90%)",
           "type": "color"
         }
       },
