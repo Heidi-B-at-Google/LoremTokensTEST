@@ -793,10 +793,6 @@
       "body": {
         "value": "Scto Grotesk A",
         "type": "fontFamilies"
-      },
-      "icon": {
-        "value": "Font Awesome 6 Free",
-        "type": "fontFamilies"
       }
     },
     "line-height": {
@@ -834,12 +830,6 @@
       },
       "weight-bold": {
         "value": "Bold",
-        "type": "fontWeights"
-      }
-    },
-    "icon": {
-      "solid": {
-        "value": "Solid",
         "type": "fontWeights"
       }
     },
