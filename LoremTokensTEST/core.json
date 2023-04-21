@@ -31,7 +31,7 @@
         "description": "Vertical space between items"
       },
       "100": {
-        "value": "{dimension.scale}",
+        "value": "{ref.scale.base}",
         "type": "spacing",
         "description": "Vertical space between items"
       },
@@ -110,6 +110,20 @@
       "horizontal-bottom": {
         "value": "0 {dimension.xxs} {dimension.xxxs}",
         "type": "spacing"
+      }
+    },
+    "type": {
+      "h1": {
+        "value": {
+          "fontFamilies": "{ref.font-family.heading}",
+          "fontWeights": "{ref.typeface.weight-bold}",
+          "fontSizes": "{ref.typescale.heading.h1}",
+          "letterSpacing": "{ref.letter-spacing.default}",
+          "paragraphSpacing": "{ref.paragraph-spacing.h1}",
+          "lineHeights": "{ref.line-height.heading}"
+        },
+        "type": "composition",
+        "description": "h1 composite token"
       }
     }
   },
@@ -193,27 +207,22 @@
           "description": "legal / footer"
         }
       },
-      "display": {
-        "d1": {
-          "value": "{ref.typescale.base}*12.5",
-          "type": "fontSizes",
-          "description": "display"
-        },
-        "d2": {
-          "value": "{ref.typescale.base}*10",
-          "type": "fontSizes",
-          "description": "display"
-        },
-        "d3": {
-          "value": "{ref.typescale.base}*7.5",
-          "type": "fontSizes",
-          "description": "display"
-        }
-      },
       "base": {
         "value": "1rem",
         "type": "fontSizes",
         "description": "base unit for all typestyles"
+      },
+      "display": {
+        "d1": {
+          "value": "{ref.typescale.base}*8",
+          "type": "fontSizes",
+          "description": "display 1"
+        },
+        "d2": {
+          "value": "{ref.typescale.base}*96",
+          "type": "fontSizes",
+          "description": "display 2"
+        }
       }
     },
     "palette": {
@@ -835,398 +844,21 @@
       }
     },
     "scale": {
-      "3xs": {
-        "value": "{ref.scale.2xs}*0.5",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "2xs": {
-        "value": "{ref.scale.xs}*0.667",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "xs": {
-        "value": "{ref.scale.sm}*0.75",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "sm": {
-        "value": "{dimension.scale}",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "md": {
-        "value": "{ref.scale.sm}*1.25",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "lg": {
-        "value": "{ref.scale.md}*1.25",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "xl": {
-        "value": "{ref.scale.lg}*1.25",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "2xl": {
-        "value": "{ref.scale.xl}*1.25",
-        "type": "sizing",
-        "description": "Responsive layout multiplier"
-      },
-      "3xl": {
-        "value": "{ref.scale.2xl}*1.25",
+      "base": {
+        "value": "1rem",
         "type": "sizing",
         "description": "Responsive layout multiplier"
       }
     },
-    "padding": {
-      "top": {
-        "4": {
-          "value": {
-            "paddingTop": "{dimension.scale}*0.25"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "8": {
-          "value": {
-            "paddingTop": "{dimension.scale}*0.5"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "12": {
-          "value": {
-            "paddingTop": "{dimension.scale}*0.75"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "16": {
-          "value": {
-            "paddingTop": "{dimension.scale}"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "20": {
-          "value": {
-            "paddingTop": "{dimension.scale}*1.25"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "24": {
-          "value": {
-            "paddingTop": "{dimension.scale}*1.5"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "28": {
-          "value": {
-            "paddingTop": "{dimension.scale}*1.75"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "32": {
-          "value": {
-            "paddingTop": "{dimension.scale}*2"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "36": {
-          "value": {
-            "paddingTop": "{dimension.scale}*2.25"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "40": {
-          "value": {
-            "paddingTop": "{dimension.scale}*2.5"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "44": {
-          "value": {
-            "paddingTop": "{dimension.scale}*2.75"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "48": {
-          "value": {
-            "paddingTop": "{dimension.scale}*3"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "52": {
-          "value": {
-            "paddingTop": "{dimension.scale}*3.25"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "56": {
-          "value": {
-            "paddingTop": "{dimension.scale}*3.5"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "60": {
-          "value": {
-            "paddingTop": "{dimension.scale}*3.75"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        },
-        "64": {
-          "value": {
-            "paddingTop": "{dimension.scale}*4"
-          },
-          "type": "composition",
-          "description": "Top only padding within components and containers"
-        }
+    "paragraph-spacing": {
+      "h1": {
+        "value": "32",
+        "type": "paragraphSpacing"
       },
-      "vertical": {
-        "4": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*.25"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "8": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*.5"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "12": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*.75"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "16": {
-          "value": {
-            "verticalPadding": "{dimension.scale}"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "20": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*1.25"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "24": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*1.5"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "28": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*1.5"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "32": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*2"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "36": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*2.25"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "40": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*2.5"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "44": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*2.75"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "48": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*3"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "52": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*3.25"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "56": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*3.5"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "60": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*3.75"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        },
-        "64": {
-          "value": {
-            "verticalPadding": "{dimension.scale}*4"
-          },
-          "type": "composition",
-          "description": "Vertical padding within components and containers"
-        }
-      },
-      "horizontal": {
-        "4": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*0.25"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "12": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*0.75"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "16": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "20": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*1.25"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "24": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*1.5"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "28": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*1.75"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "32": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*2"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "36": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*2.25"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "40": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*2.5"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "44": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*2.75"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "48": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*3"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "52": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*3.25"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "56": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*3.5"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "60": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*3.75"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        },
-        "64": {
-          "value": {
-            "horizontalPadding": "{dimension.scale}*4"
-          },
-          "type": "composition",
-          "description": "Horizontal padding within components and containers"
-        }
+      "h2": {
+        "value": "26",
+        "type": "paragraphSpacing"
       }
-    }
-  },
-  "leading": {
-    "h1": {
-      "value": "32",
-      "type": "paragraphSpacing"
-    },
-    "h2": {
-      "value": "26",
-      "type": "paragraphSpacing"
     }
   },
   "comp": {
