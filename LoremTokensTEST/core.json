@@ -102,6 +102,18 @@
         "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
       }
     },
+    "padding": {
+      "top-horizontal": {
+        "value": "{dimension.scale} {dimension.scale} 0",
+        "type": "spacing"
+      },
+      "horizontal-bottom": {
+        "value": "0 {dimension.xxs} {dimension.xxxs}",
+        "type": "spacing"
+      }
+    }
+  },
+  "ref": {
     "typescale": {
       "heading": {
         "h1": {
@@ -159,12 +171,12 @@
       },
       "label": {
         "sm": {
-          "value": "{sys.typescale.body.sm}*0.82",
+          "value": "{ref.typescale.body.sm}*0.82",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         },
         "default": {
-          "value": "{sys.typescale.body.sm}",
+          "value": "{ref.typescale.body.sm}",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         }
@@ -197,20 +209,13 @@
           "type": "fontSizes",
           "description": "display"
         }
+      },
+      "base": {
+        "value": "1rem",
+        "type": "fontSizes",
+        "description": "base unit for all typestyles"
       }
     },
-    "padding": {
-      "top-horizontal": {
-        "value": "{dimension.scale} {dimension.scale} 0",
-        "type": "spacing"
-      },
-      "horizontal-bottom": {
-        "value": "0 {dimension.xxs} {dimension.xxxs}",
-        "type": "spacing"
-      }
-    }
-  },
-  "ref": {
     "palette": {
       "primary": {
         "0": {
@@ -827,13 +832,6 @@
       "solid": {
         "value": "Solid",
         "type": "fontWeights"
-      }
-    },
-    "typescale": {
-      "base": {
-        "value": "1rem",
-        "type": "fontSizes",
-        "description": "base unit for all typestyles"
       }
     },
     "scale": {

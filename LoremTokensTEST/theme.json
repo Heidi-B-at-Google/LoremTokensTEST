@@ -64,7 +64,7 @@
           "fontFamily": "{ref.font-family.heading}",
           "fontWeight": "{ref.typeface.weight-medium}",
           "lineHeight": "{ref.line-height.heading}",
-          "fontSize": "{sys.typescale.heading.h1}",
+          "fontSize": "{ref.typescale.heading.h1}",
           "paragraphSpacing": "{leading.h1}",
           "letterSpacing": "{ref.letter-spacing.decreased}"
         }
@@ -75,7 +75,7 @@
           "fontFamily": "{ref.font-family.heading}",
           "fontWeight": "{ref.typeface.weight-regular}",
           "lineHeight": "{ref.line-height.heading}",
-          "fontSize": "{sys.typescale.heading.h1}",
+          "fontSize": "{ref.typescale.heading.h1}",
           "paragraphSpacing": "{leading.h1}",
           "letterSpacing": "{ref.letter-spacing.decreased}"
         }
@@ -88,7 +88,7 @@
           "fontFamily": "{ref.font-family.heading}",
           "fontWeight": "{ref.typeface.weight-medium}",
           "lineHeight": "{ref.line-height.heading}",
-          "fontSize": "{sys.typescale.heading.h2}",
+          "fontSize": "{ref.typescale.heading.h2}",
           "paragraphSpacing": "{leading.h2}",
           "letterSpacing": "{ref.letter-spacing.decreased}"
         }
@@ -99,7 +99,7 @@
           "fontFamily": "{ref.font-family.heading}",
           "fontWeight": "{ref.typeface.weight-regular}",
           "lineHeight": "{ref.line-height.heading}",
-          "fontSize": "{sys.typescale.heading.h2}",
+          "fontSize": "{ref.typescale.heading.h2}",
           "paragraphSpacing": "{leading.h2}",
           "letterSpacing": "{ref.letter-spacing.decreased}"
         }
@@ -111,7 +111,7 @@
         "fontFamily": "{ref.font-family.body}",
         "fontWeight": "{ref.typeface.weight.bodyRegular}",
         "lineHeight": "{ref.line-height.heading}",
-        "fontSize": "{sys.typescale.body.sm}",
+        "fontSize": "{ref.typescale.body.sm}",
         "paragraphSpacing": "{leading.h2}"
       }
     }
