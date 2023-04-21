@@ -1,32 +1,18 @@
 {
-  "dimension": {
-    "scale": {
-      "value": "1rem",
-      "type": "dimension"
-    },
-    "xxs": {
-      "value": "{dimension.scale}*0.5",
-      "type": "dimension"
-    },
-    "xxxs": {
-      "value": "{dimension.scale}*0.25",
-      "type": "dimension"
-    }
-  },
   "sys": {
     "spacer": {
       "25": {
-        "value": "{dimension.scale}*0.25",
+        "value": "{ref.scale.base}*0.25",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "50": {
-        "value": "{dimension.scale}*0.5",
+        "value": "{ref.scale.base}*0.5",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "75": {
-        "value": "{dimension.scale}*0.75",
+        "value": "{ref.scale.base}*0.75",
         "type": "spacing",
         "description": "Vertical space between items"
       },
@@ -36,64 +22,64 @@
         "description": "Vertical space between items"
       },
       "150": {
-        "value": "{dimension.scale}*1.5",
+        "value": "{ref.scale.base}*1.5",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "200": {
-        "value": "{dimension.scale}*2",
+        "value": "{ref.scale.base}*2",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "300": {
-        "value": "{dimension.scale}*3",
+        "value": "{ref.scale.base}*3",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "400": {
-        "value": "{dimension.scale}*4",
+        "value": "{ref.scale.base}*4",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "600": {
-        "value": "{dimension.scale}*6",
+        "value": "{ref.scale.base}*6",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "900": {
-        "value": "{dimension.scale}*9",
+        "value": "{ref.scale.base}*9",
         "type": "spacing",
         "description": "Vertical space between items"
       },
       "1600": {
-        "value": "{dimension.scale}*16",
+        "value": "{ref.scale.base}*16",
         "type": "spacing",
         "description": "Vertical space between items"
       }
     },
     "border-radius": {
       "4": {
-        "value": "{dimension.scale}*0.25",
+        "value": "{ref.border-radius.scale}*0.25",
         "type": "borderRadius"
       },
       "8": {
-        "value": "{dimension.scale}*0.5",
+        "value": "{ref.border-radius.scale}*0.5",
         "type": "borderRadius"
       },
       "12": {
-        "value": "{dimension.scale}*0.75",
+        "value": "{ref.border-radius.scale}*0.75",
         "type": "borderRadius"
       },
       "16": {
-        "value": "{dimension.scale}",
+        "value": "{ref.border-radius.scale}",
         "type": "borderRadius"
       },
       "32": {
-        "value": "{dimension.scale}*2",
+        "value": "{ref.border-radius.scale}*2",
         "type": "borderRadius"
       },
       "40": {
-        "value": "{dimension.scale}*2.5",
+        "value": "{ref.border-radius.scale}*2.5",
         "type": "borderRadius"
       },
       "multi-value": {
@@ -104,11 +90,11 @@
     },
     "padding": {
       "top-horizontal": {
-        "value": "{dimension.scale} {dimension.scale} 0",
+        "value": "{ref.scale.base} {ref.scale.base} 0",
         "type": "spacing"
       },
       "horizontal-bottom": {
-        "value": "0 {dimension.xxs} {dimension.xxxs}",
+        "value": "0 {sys.spacer.25} {sys.spacer.25}",
         "type": "spacing"
       }
     },
@@ -793,10 +779,6 @@
       "body": {
         "value": "Scto Grotesk A",
         "type": "fontFamilies"
-      },
-      "icon": {
-        "value": "Font Awesome 6 Free",
-        "type": "fontFamilies"
       }
     },
     "line-height": {
@@ -837,12 +819,6 @@
         "type": "fontWeights"
       }
     },
-    "icon": {
-      "solid": {
-        "value": "Solid",
-        "type": "fontWeights"
-      }
-    },
     "scale": {
       "base": {
         "value": "1rem",
@@ -858,6 +834,12 @@
       "h2": {
         "value": "26",
         "type": "paragraphSpacing"
+      }
+    },
+    "border-radius": {
+      "scale": {
+        "value": "1rem",
+        "type": "borderRadius"
       }
     }
   },
