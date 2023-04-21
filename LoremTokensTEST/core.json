@@ -59,27 +59,27 @@
     },
     "border-radius": {
       "4": {
-        "value": "{dimension.scale}*0.25",
+        "value": "{ref.border-radius.scale}*0.25",
         "type": "borderRadius"
       },
       "8": {
-        "value": "{dimension.scale}*0.5",
+        "value": "{ref.border-radius.scale}*0.5",
         "type": "borderRadius"
       },
       "12": {
-        "value": "{dimension.scale}*0.75",
+        "value": "{ref.border-radius.scale}*0.75",
         "type": "borderRadius"
       },
       "16": {
-        "value": "{dimension.scale}",
+        "value": "{ref.border-radius.scale}",
         "type": "borderRadius"
       },
       "32": {
-        "value": "{dimension.scale}*2",
+        "value": "{ref.border-radius.scale}*2",
         "type": "borderRadius"
       },
       "40": {
-        "value": "{dimension.scale}*2.5",
+        "value": "{ref.border-radius.scale}*2.5",
         "type": "borderRadius"
       },
       "multi-value": {
@@ -834,6 +834,12 @@
       "h2": {
         "value": "26",
         "type": "paragraphSpacing"
+      }
+    },
+    "border-radius": {
+      "scale": {
+        "value": "1rem",
+        "type": "borderRadius"
       }
     }
   },
