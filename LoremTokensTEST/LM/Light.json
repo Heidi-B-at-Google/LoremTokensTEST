@@ -142,9 +142,34 @@
           "description": "base color"
         },
         "2": {
-          "value": "{ref.palette.secondary.99}",
+          "value": "{ref.palette.neutral.90}",
           "type": "color",
-          "description": "alternate surface color"
+          "description": "surface2",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.35",
+                "space": "lch",
+                "color": "{ref.palette.neutral.100}"
+              }
+            }
+          }
+        },
+        "3": {
+          "value": "{ref.palette.neutral.90}",
+          "type": "color",
+          "description": "surface3",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.1",
+                "space": "lch",
+                "color": "{ref.palette.neutral.100}"
+              }
+            }
+          }
         },
         "on-base": {
           "value": "{ref.palette.primary.10}",
@@ -155,6 +180,16 @@
           "value": "{ref.palette.secondary.10}",
           "type": "color",
           "description": "content on top of surface-variant"
+        },
+        "inverse": {
+          "value": "{ref.palette.neutral.20}",
+          "type": "color",
+          "description": "inverse surface"
+        },
+        "on-surface": {
+          "value": "{ref.palette.neutral-variant.10}",
+          "type": "color",
+          "description": "typography and high emphasis elements on surfaces"
         }
       }
     },
