@@ -157,6 +157,20 @@
           "description": "content on top of surface-variant"
         }
       }
+    },
+    "type": {
+      "h1": {
+        "value": {
+          "fontFamily": "{ref.font-family.heading}",
+          "fontWeight": "{ref.typeface.weight-bold}",
+          "lineHeight": "{ref.line-height.heading}",
+          "fontSize": "{ref.typescale.heading.h1}",
+          "letterSpacing": "{ref.letter-spacing.default}",
+          "paragraphSpacing": "{ref.paragraph-spacing.h1}"
+        },
+        "type": "typography",
+        "description": "h1"
+      }
     }
   }
 }
