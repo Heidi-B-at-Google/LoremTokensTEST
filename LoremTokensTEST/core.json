@@ -119,42 +119,42 @@
         "h1": {
           "value": "{ref.typescale.base}*5.5",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 1"
         },
         "h2": {
           "value": "{ref.typescale.base}*4",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 2"
         },
         "h3": {
-          "value": "{ref.typescale.base}*3.25",
+          "value": "{ref.typescale.base}*3",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 3"
         },
         "h4": {
-          "value": "{ref.typescale.base}*2.75",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h5": {
           "value": "{ref.typescale.base}*2",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 2"
         },
-        "h6": {
+        "h5": {
           "value": "{ref.typescale.base}*1.5",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 5"
         },
-        "h7": {
+        "h6": {
           "value": "{ref.typescale.base}*1.25",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 6"
         }
       },
       "body": {
+        "xs": {
+          "value": "{ref.typescale.base}*.75",
+          "type": "fontSizes",
+          "description": "xsmall body"
+        },
         "sm": {
-          "value": "{ref.typescale.base}*0.75",
+          "value": "{ref.typescale.base}*0.875",
           "type": "fontSizes",
           "description": "small body"
         },
@@ -164,33 +164,31 @@
           "description": "medium body"
         },
         "lg": {
-          "value": "{ref.typescale.base}*1.25",
+          "value": "{ref.typescale.base}*1.125",
           "type": "fontSizes",
           "description": "large body"
         }
       },
       "label": {
-        "sm": {
-          "value": "{ref.typescale.body.sm}*0.82",
+        "xs": {
+          "value": "{ref.typescale.base}*.75",
           "type": "fontSizes",
-          "description": "CTA / eyebrow"
+          "description": "labels / CTA / eyebrow - xsmall"
         },
-        "default": {
-          "value": "{ref.typescale.body.sm}",
-          "type": "fontSizes",
-          "description": "CTA / eyebrow"
-        }
-      },
-      "body-metadata": {
         "sm": {
-          "value": "{ref.typescale.base}*0.625",
+          "value": "{ref.typescale.base}*.875",
           "type": "fontSizes",
-          "description": "legal / footer"
+          "description": "labels / CTA / eyebrow - small"
         },
         "md": {
-          "value": "{ref.typescale.base}*0.75",
+          "value": "{ref.typescale.base}",
           "type": "fontSizes",
-          "description": "legal / footer"
+          "description": "labels / CTA / eyebrow - medium"
+        },
+        "lg": {
+          "value": "{ref.typescale.base}*1.25",
+          "type": "fontSizes",
+          "description": "labels / CTA / eyebrow - large"
         }
       },
       "base": {
@@ -200,12 +198,12 @@
       },
       "display": {
         "d1": {
-          "value": "{ref.typescale.base}*8",
+          "value": "{ref.typescale.base}*10.5",
           "type": "fontSizes",
           "description": "display 1"
         },
         "d2": {
-          "value": "{ref.typescale.base}*96",
+          "value": "{ref.typescale.base}*8",
           "type": "fontSizes",
           "description": "display 2"
         }
@@ -814,12 +812,20 @@
       }
     },
     "typeface": {
+      "weight-light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
       "weight-regular": {
         "value": "Regular",
         "type": "fontWeights"
       },
       "weight-medium": {
         "value": "Medium",
+        "type": "fontWeights"
+      },
+      "weight-semibold": {
+        "value": "Semibold",
         "type": "fontWeights"
       },
       "weight-bold": {
