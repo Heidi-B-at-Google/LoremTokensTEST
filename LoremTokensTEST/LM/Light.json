@@ -158,7 +158,7 @@
         }
       }
     },
-    "typography": {
+    "type": {
       "h1": {
         "value": {
           "fontFamily": "{ref.font-family.heading}",
