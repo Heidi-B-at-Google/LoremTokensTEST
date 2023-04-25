@@ -161,7 +161,7 @@
     "type": {
       "h1": {
         "value": {
-          "fontFamily": "{ref.font-family.heading}",
+          "fontFamily": "{ref.font-family.primary}",
           "fontWeight": "{ref.typeface.weight-bold}",
           "lineHeight": "{ref.line-height.heading}",
           "fontSize": "{ref.typescale.heading.h1}",
