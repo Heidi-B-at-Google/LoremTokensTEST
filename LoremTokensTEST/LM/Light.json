@@ -192,19 +192,9 @@
           "description": "typography and high emphasis elements on surfaces"
         },
         "disabled": {
-          "value": "{ref.palette.neutral-variant.10}",
+          "value": "#949290",
           "type": "color",
-          "description": "disabled states",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.72",
-                "space": "lch",
-                "color": "{ref.palette.neutral-variant.100}"
-              }
-            }
-          }
+          "description": "disabled containers/icons\nNV10@46% converted to hex"
         },
         "disabled-container": {
           "value": "{ref.palette.neutral-variant.10}",
