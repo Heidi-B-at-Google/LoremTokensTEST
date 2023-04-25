@@ -61,7 +61,7 @@
       "Bold": {
         "type": "typography",
         "value": {
-          "fontFamily": "{ref.font-family.heading}",
+          "fontFamily": "{ref.font-family.primary}",
           "fontWeight": "{ref.typeface.weight-medium}",
           "lineHeight": "{ref.line-height.heading}",
           "fontSize": "{ref.typescale.heading.h1}",
@@ -72,7 +72,7 @@
       "Regular": {
         "type": "typography",
         "value": {
-          "fontFamily": "{ref.font-family.heading}",
+          "fontFamily": "{ref.font-family.primary}",
           "fontWeight": "{ref.typeface.weight-regular}",
           "lineHeight": "{ref.line-height.heading}",
           "fontSize": "{ref.typescale.heading.h1}",
@@ -85,7 +85,7 @@
       "Bold": {
         "type": "typography",
         "value": {
-          "fontFamily": "{ref.font-family.heading}",
+          "fontFamily": "{ref.font-family.primary}",
           "fontWeight": "{ref.typeface.weight-medium}",
           "lineHeight": "{ref.line-height.heading}",
           "fontSize": "{ref.typescale.heading.h2}",
@@ -96,7 +96,7 @@
       "Regular": {
         "type": "typography",
         "value": {
-          "fontFamily": "{ref.font-family.heading}",
+          "fontFamily": "{ref.font-family.primary}",
           "fontWeight": "{ref.typeface.weight-regular}",
           "lineHeight": "{ref.line-height.heading}",
           "fontSize": "{ref.typescale.heading.h2}",
