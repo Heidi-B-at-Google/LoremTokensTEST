@@ -378,12 +378,12 @@
       },
       "display": {
         "d1": {
-          "value": "{ref.typescale.base}*10.5",
+          "value": "{ref.typescale.base}*8",
           "type": "fontSizes",
           "description": "display 1"
         },
         "d2": {
-          "value": "{ref.typescale.base}*8",
+          "value": "{ref.typescale.base}*6",
           "type": "fontSizes",
           "description": "display 2"
         }
