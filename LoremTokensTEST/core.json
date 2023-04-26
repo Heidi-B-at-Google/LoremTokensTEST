@@ -220,7 +220,7 @@
           "description": "display 1"
         },
         "d2": {
-          "value": "{ref.typescale.base}*96",
+          "value": "{ref.typescale.base}*6",
           "type": "fontSizes",
           "description": "display 2"
         }
