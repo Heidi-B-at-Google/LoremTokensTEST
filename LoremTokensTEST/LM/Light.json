@@ -181,11 +181,6 @@
           "type": "color",
           "description": "on surface variant"
         },
-        "inverse": {
-          "value": "{ref.palette.neutral.20}",
-          "type": "color",
-          "description": "inverse surface"
-        },
         "on-surface": {
           "value": "{ref.palette.neutral-variant.10}",
           "type": "color",
@@ -215,6 +210,11 @@
           "value": "{ref.palette.neutral-variant.90}",
           "type": "color",
           "description": "alternate surface color"
+        },
+        "inverse-surface": {
+          "value": "{ref.palette.neutral.20}",
+          "type": "color",
+          "description": "high emphasis surface"
         }
       }
     },
