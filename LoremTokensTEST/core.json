@@ -101,12 +101,12 @@
     "type": {
       "h1": {
         "value": {
-          "fontFamilies": "{ref.font-family.heading}",
+          "fontFamilies": "{ref.font-family.primary}",
           "fontWeights": "{ref.typeface.weight-bold}",
           "fontSizes": "{ref.typescale.heading.h1}",
           "letterSpacing": "{ref.letter-spacing.default}",
-          "paragraphSpacing": "{ref.paragraph-spacing.h1}",
-          "lineHeights": "{ref.line-height.heading}"
+          "paragraphSpacing": "{ref.paragraph-spacing.default}",
+          "lineHeights": "{ref.line-height.default}"
         },
         "type": "composition",
         "description": "h1 composite token"
@@ -780,17 +780,19 @@
       }
     },
     "font-family": {
-      "heading": {
+      "primary": {
         "value": "Scto Grotesk A",
-        "type": "fontFamilies"
+        "type": "fontFamilies",
+        "description": "primary font family"
       },
-      "body": {
-        "value": "Scto Grotesk A",
-        "type": "fontFamilies"
+      "secondary": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "optional stylistic additional font-family"
       }
     },
     "line-height": {
-      "heading": {
+      "default": {
         "value": "110%",
         "type": "lineHeights"
       },
@@ -835,7 +837,7 @@
       }
     },
     "paragraph-spacing": {
-      "h1": {
+      "default": {
         "value": "32",
         "type": "paragraphSpacing"
       },
