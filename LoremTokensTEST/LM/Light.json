@@ -177,9 +177,9 @@
           "description": "content on top of base"
         },
         "on-surface-variant": {
-          "value": "{ref.palette.secondary.10}",
+          "value": "{ref.palette.neutral-variant.30}",
           "type": "color",
-          "description": "content on top of surface-variant"
+          "description": "on surface variant"
         },
         "inverse": {
           "value": "{ref.palette.neutral.20}",
@@ -210,6 +210,11 @@
               }
             }
           }
+        },
+        "surface-variant": {
+          "value": "{ref.palette.neutral-variant.90}",
+          "type": "color",
+          "description": "alternate surface color"
         }
       }
     },
