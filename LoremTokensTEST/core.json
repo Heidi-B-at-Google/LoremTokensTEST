@@ -175,13 +175,23 @@
         }
       },
       "label": {
-        "sm": {
-          "value": "{ref.typescale.body.sm}*0.82",
+        "xs": {
+          "value": "{ref.typescale.body.sm}*0.75",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         },
-        "default": {
-          "value": "{ref.typescale.body.sm}",
+        "sm": {
+          "value": "{ref.typescale.body.sm}*0.875",
+          "type": "fontSizes",
+          "description": "CTA / eyebrow"
+        },
+        "md": {
+          "value": "{ref.typescale.base}",
+          "type": "fontSizes",
+          "description": "label md"
+        },
+        "lg": {
+          "value": "{ref.typescale.base}*1.25",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         }
