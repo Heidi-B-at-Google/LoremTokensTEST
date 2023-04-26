@@ -153,8 +153,13 @@
         }
       },
       "body": {
+        "xs": {
+          "value": "{ref.typescale.base}*.75",
+          "type": "fontSizes",
+          "description": "xs body"
+        },
         "sm": {
-          "value": "{ref.typescale.base}*0.75",
+          "value": "{ref.typescale.base}*0.875",
           "type": "fontSizes",
           "description": "small body"
         },
@@ -164,7 +169,7 @@
           "description": "medium body"
         },
         "lg": {
-          "value": "{ref.typescale.base}*1.25",
+          "value": "{ref.typescale.base}*1.125",
           "type": "fontSizes",
           "description": "large body"
         }
