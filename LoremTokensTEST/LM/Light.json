@@ -171,40 +171,30 @@
             }
           }
         },
-        "on-base": {
+        "on-surface-default": {
           "value": "{ref.palette.primary.10}",
           "type": "color",
-          "description": "content on top of base"
+          "description": "high emphasis content on surface"
         },
         "on-surface-variant": {
           "value": "{ref.palette.neutral-variant.30}",
           "type": "color",
           "description": "on surface variant"
         },
-        "on-surface": {
+        "on-surface-2": {
           "value": "{ref.palette.neutral-variant.10}",
           "type": "color",
-          "description": "typography and high emphasis elements on surfaces"
+          "description": "typography and medium emphasis elements on surfaces"
         },
         "disabled": {
           "value": "#949290",
           "type": "color",
-          "description": "disabled containers/icons\nNV10@46% converted to hex"
+          "description": "disabled containers/icons\nNV10@46% converted to HEX"
         },
         "disabled-container": {
-          "value": "{ref.palette.neutral-variant.10}",
+          "value": "#D0CFCE",
           "type": "color",
-          "description": "disabled container",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.82",
-                "space": "lch",
-                "color": "{ref.palette.neutral-variant.100}"
-              }
-            }
-          }
+          "description": "disabled containers/icons\nNV10@12% converted to HEX"
         },
         "surface-variant": {
           "value": "{ref.palette.neutral-variant.90}",
@@ -215,6 +205,23 @@
           "value": "{ref.palette.neutral.20}",
           "type": "color",
           "description": "high emphasis surface"
+        }
+      },
+      "system": {
+        "separator": {
+          "value": "{ref.palette.neutral.95}",
+          "type": "color",
+          "description": "dividers, separators"
+        },
+        "focus-ring": {
+          "value": "{ref.palette.blue.60}",
+          "type": "color",
+          "description": "focus ring state layer"
+        },
+        "drop-shadow": {
+          "value": "{ref.palette.neutral.30}",
+          "type": "color",
+          "description": "drop shadow base color"
         }
       }
     },
