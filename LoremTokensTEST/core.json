@@ -99,17 +99,17 @@
       }
     },
     "type": {
-      "h1T": {
+      "h1": {
         "value": {
-          "fontFamily": "{ref.font-family.primary}",
-          "fontWeight": "{ref.typeface.weight-bold}",
-          "lineHeight": "{ref.line-height.default}",
-          "fontSize": "{ref.typescale.base}",
-          "letterSpacing": "{ref.letter-spacing.decreased}",
-          "paragraphSpacing": "{ref.paragraph-spacing.default}"
+          "fontFamilies": "{ref.font-family.primary}",
+          "fontWeights": "{ref.typeface.weight-bold}",
+          "fontSizes": "{ref.typescale.heading.h1}",
+          "letterSpacing": "{ref.letter-spacing.default}",
+          "paragraphSpacing": "{ref.paragraph-spacing.default}",
+          "lineHeights": "{ref.line-height.default}"
         },
-        "type": "typography",
-        "description": "test"
+        "type": "composition",
+        "description": "h1 composite token"
       }
     }
   },
@@ -151,7 +151,7 @@
         "xs": {
           "value": "{ref.typescale.base}*.75",
           "type": "fontSizes",
-          "description": "xsmall body"
+          "description": "xs body"
         },
         "sm": {
           "value": "{ref.typescale.base}*0.875",
@@ -171,10 +171,27 @@
       },
       "label": {
         "xs": {
-          "value": "{ref.typescale.base}*.75",
+          "value": "{ref.typescale.body.sm}*0.75",
           "type": "fontSizes",
           "description": "labels / CTA / eyebrow - xsmall"
         },
+        "sm": {
+          "value": "{ref.typescale.body.sm}*0.875",
+          "type": "fontSizes",
+          "description": "CTA / eyebrow"
+        },
+        "md": {
+          "value": "{ref.typescale.base}",
+          "type": "fontSizes",
+          "description": "label md"
+        },
+        "lg": {
+          "value": "{ref.typescale.base}*1.25",
+          "type": "fontSizes",
+          "description": "CTA / eyebrow"
+        }
+      },
+      "body-metadata": {
         "sm": {
           "value": "{ref.typescale.base}*.875",
           "type": "fontSizes",
@@ -780,7 +797,23 @@
     "font-family": {
       "primary": {
         "value": "Scto Grotesk A",
-        "type": "fontFamilies"
+        "type": "fontFamilies",
+        "description": "primary font family"
+      },
+      "secondary": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "optional stylistic additional font-family"
+      }
+    },
+    "line-height": {
+      "default": {
+        "value": "110%",
+        "type": "lineHeights"
+      },
+      "body": {
+        "value": "110%",
+        "type": "lineHeights"
       }
     },
     "letter-spacing": {
@@ -824,6 +857,16 @@
         "value": "1rem",
         "type": "sizing",
         "description": "Responsive layout multiplier"
+      }
+    },
+    "paragraph-spacing": {
+      "default": {
+        "value": "32",
+        "type": "paragraphSpacing"
+      },
+      "h2": {
+        "value": "26",
+        "type": "paragraphSpacing"
       }
     },
     "border-radius": {
