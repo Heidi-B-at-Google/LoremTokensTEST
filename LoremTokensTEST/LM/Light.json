@@ -431,10 +431,15 @@
   "comp": {
     "color": {
       "cta": {
-        "hover": {
-          "value": "{ref.palette.neutral.30}",
+        "hover-focus": {
+          "value": "{ref.palette.primary.30}",
           "type": "color",
-          "description": "Hover state for CTA"
+          "description": "Hover and focus fill for CTA"
+        },
+        "pressed": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color",
+          "description": "pressed fill for cta"
         }
       }
     }
