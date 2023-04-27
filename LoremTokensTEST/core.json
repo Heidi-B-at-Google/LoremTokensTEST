@@ -97,20 +97,6 @@
         "value": "0 {sys.spacer.25} {sys.spacer.25}",
         "type": "spacing"
       }
-    },
-    "type": {
-      "h1": {
-        "value": {
-          "fontFamilies": "{ref.font-family.primary}",
-          "fontWeights": "{ref.typeface.weight-bold}",
-          "fontSizes": "{ref.typescale.heading.h1}",
-          "letterSpacing": "{ref.letter-spacing.default}",
-          "paragraphSpacing": "{ref.paragraph-spacing.default}",
-          "lineHeights": "{ref.line-height.default}"
-        },
-        "type": "composition",
-        "description": "h1 composite token"
-      }
     }
   },
   "ref": {
