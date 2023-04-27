@@ -807,12 +807,16 @@
       }
     },
     "line-height": {
-      "default": {
-        "value": "110%",
+      "tight": {
+        "value": "115%",
         "type": "lineHeights"
       },
-      "body": {
-        "value": "110%",
+      "default": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
+      "loose": {
+        "value": "150%",
         "type": "lineHeights"
       }
     },
@@ -861,11 +865,7 @@
     },
     "paragraph-spacing": {
       "default": {
-        "value": "32",
-        "type": "paragraphSpacing"
-      },
-      "h2": {
-        "value": "26",
+        "value": "0",
         "type": "paragraphSpacing"
       }
     },
@@ -873,26 +873,6 @@
       "scale": {
         "value": "1rem",
         "type": "borderRadius"
-      }
-    },
-    "paragraph-spacing": {
-      "default": {
-        "value": "0",
-        "type": "paragraphSpacing"
-      }
-    },
-    "line-height": {
-      "tight": {
-        "value": "115%",
-        "type": "lineHeights"
-      },
-      "default": {
-        "value": "125%",
-        "type": "lineHeights"
-      },
-      "loose": {
-        "value": "150%",
-        "type": "lineHeights"
       }
     }
   },

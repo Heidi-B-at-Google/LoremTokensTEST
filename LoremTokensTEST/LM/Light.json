@@ -186,6 +186,13 @@
           "type": "color",
           "description": "typography and medium emphasis elements on surfaces"
         },
+        "surface-variant": {
+          "value": "{ref.palette.neutral-variant.90}",
+          "type": "color",
+          "description": "alternate surface color"
+        }
+      },
+      "system": {
         "disabled": {
           "value": "#949290",
           "type": "color",
@@ -196,18 +203,6 @@
           "type": "color",
           "description": "disabled containers/icons\nNV10@12% converted to HEX"
         },
-        "surface-variant": {
-          "value": "{ref.palette.neutral-variant.90}",
-          "type": "color",
-          "description": "alternate surface color"
-        },
-        "inverse-surface": {
-          "value": "{ref.palette.neutral.20}",
-          "type": "color",
-          "description": "high emphasis surface"
-        }
-      },
-      "system": {
         "separator": {
           "value": "{ref.palette.neutral.95}",
           "type": "color",
@@ -222,6 +217,11 @@
           "value": "{ref.palette.neutral.30}",
           "type": "color",
           "description": "drop shadow base color"
+        },
+        "inverse-surface": {
+          "value": "{ref.palette.neutral.20}",
+          "type": "color",
+          "description": "high emphasis surface"
         }
       }
     },
@@ -424,6 +424,17 @@
           },
           "type": "typography",
           "description": "display 2"
+        }
+      }
+    }
+  },
+  "comp": {
+    "color": {
+      "cta": {
+        "hover": {
+          "value": "{ref.palette.neutral.30}",
+          "type": "color",
+          "description": "Hover state for CTA"
         }
       }
     }
