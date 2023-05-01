@@ -157,12 +157,12 @@
       },
       "label": {
         "xs": {
-          "value": "{ref.typescale.body.sm}*0.75",
+          "value": "{ref.typescale.base}*.75",
           "type": "fontSizes",
           "description": "labels / CTA / eyebrow - xsmall"
         },
         "sm": {
-          "value": "{ref.typescale.body.sm}*0.875",
+          "value": "{ref.typescale.base}*.875",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         },
@@ -172,26 +172,9 @@
           "description": "label md"
         },
         "lg": {
-          "value": "{ref.typescale.base}*1.25",
-          "type": "fontSizes",
-          "description": "CTA / eyebrow"
-        }
-      },
-      "body-metadata": {
-        "sm": {
-          "value": "{ref.typescale.base}*.875",
-          "type": "fontSizes",
-          "description": "labels / CTA / eyebrow - small"
-        },
-        "md": {
-          "value": "{ref.typescale.base}",
-          "type": "fontSizes",
-          "description": "labels / CTA / eyebrow - medium"
-        },
-        "lg": {
           "value": "{ref.typescale.base}*1.125",
           "type": "fontSizes",
-          "description": "labels / CTA / eyebrow - large"
+          "description": "CTA / eyebrow"
         }
       },
       "base": {
