@@ -404,7 +404,7 @@
         "d1": {
           "value": {
             "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
+            "fontWeight": "{ref.typeface.weight-bold}",
             "lineHeight": "{ref.line-height.default}",
             "fontSize": "{ref.typescale.display.d1}",
             "letterSpacing": "{ref.letter-spacing.default}",
@@ -416,7 +416,7 @@
         "d2": {
           "value": {
             "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
+            "fontWeight": "{ref.typeface.weight-bold}",
             "lineHeight": "{ref.line-height.default}",
             "fontSize": "{ref.typescale.display.d2}",
             "letterSpacing": "{ref.letter-spacing.default}",
