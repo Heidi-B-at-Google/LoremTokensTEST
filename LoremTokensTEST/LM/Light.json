@@ -336,18 +336,6 @@
           },
           "type": "typography",
           "description": "body small"
-        },
-        "xs": {
-          "value": {
-            "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-regular}",
-            "lineHeight": "{ref.line-height.default}",
-            "fontSize": "{ref.typescale.body.xs}",
-            "letterSpacing": "{ref.letter-spacing.default}",
-            "paragraphSpacing": "{ref.paragraph-spacing.default}"
-          },
-          "type": "typography",
-          "description": "body xsmall"
         }
       },
       "label": {
@@ -386,18 +374,6 @@
           },
           "type": "typography",
           "description": "label small"
-        },
-        "xs": {
-          "value": {
-            "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
-            "lineHeight": "{ref.line-height.default}",
-            "fontSize": "{ref.typescale.label.xs}",
-            "letterSpacing": "{ref.letter-spacing.default}",
-            "paragraphSpacing": "{ref.paragraph-spacing.default}"
-          },
-          "type": "typography",
-          "description": "label xsmall"
         }
       },
       "display": {

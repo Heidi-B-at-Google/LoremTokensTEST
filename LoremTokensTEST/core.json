@@ -134,11 +134,6 @@
         }
       },
       "body": {
-        "xs": {
-          "value": "{ref.typescale.base}*.75",
-          "type": "fontSizes",
-          "description": "xs body"
-        },
         "sm": {
           "value": "{ref.typescale.base}*0.875",
           "type": "fontSizes",
@@ -156,11 +151,6 @@
         }
       },
       "label": {
-        "xs": {
-          "value": "{ref.typescale.base}*.75",
-          "type": "fontSizes",
-          "description": "labels / CTA / eyebrow - xsmall"
-        },
         "sm": {
           "value": "{ref.typescale.base}*.875",
           "type": "fontSizes",
