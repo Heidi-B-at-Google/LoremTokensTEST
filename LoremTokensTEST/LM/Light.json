@@ -186,6 +186,13 @@
           "type": "color",
           "description": "typography and medium emphasis elements on surfaces"
         },
+        "surface-variant": {
+          "value": "{ref.palette.neutral-variant.90}",
+          "type": "color",
+          "description": "alternate surface color"
+        }
+      },
+      "system": {
         "disabled": {
           "value": "#949290",
           "type": "color",
@@ -196,18 +203,6 @@
           "type": "color",
           "description": "disabled containers/icons\nNV10@12% converted to HEX"
         },
-        "surface-variant": {
-          "value": "{ref.palette.neutral-variant.90}",
-          "type": "color",
-          "description": "alternate surface color"
-        },
-        "inverse-surface": {
-          "value": "{ref.palette.neutral.20}",
-          "type": "color",
-          "description": "high emphasis surface"
-        }
-      },
-      "system": {
         "separator": {
           "value": "{ref.palette.neutral.95}",
           "type": "color",
@@ -222,6 +217,71 @@
           "value": "{ref.palette.neutral.30}",
           "type": "color",
           "description": "drop shadow base color"
+        },
+        "inverse-surface": {
+          "value": "{ref.palette.neutral.20}",
+          "type": "color",
+          "description": "high emphasis surface"
+        }
+      },
+      "opacity": {
+        "state-layer": {
+          "hover": {
+            "value": "{ref.palette.neutral.10}",
+            "type": "color",
+            "description": "hover state layer",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.08",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "focus": {
+            "value": "{ref.palette.neutral.10}",
+            "type": "color",
+            "description": "focus state layer",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover-focus": {
+            "value": "{ref.palette.neutral.10}",
+            "type": "color",
+            "description": "hover-focus state layer",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.18",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed": {
+            "value": "{ref.palette.neutral.10}",
+            "type": "color",
+            "description": "pressed state layer",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -336,18 +396,6 @@
           },
           "type": "typography",
           "description": "body small"
-        },
-        "xs": {
-          "value": {
-            "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-regular}",
-            "lineHeight": "{ref.line-height.default}",
-            "fontSize": "{ref.typescale.body.xs}",
-            "letterSpacing": "{ref.letter-spacing.default}",
-            "paragraphSpacing": "{ref.paragraph-spacing.default}"
-          },
-          "type": "typography",
-          "description": "body xsmall"
         }
       },
       "label": {
@@ -386,25 +434,13 @@
           },
           "type": "typography",
           "description": "label small"
-        },
-        "xs": {
-          "value": {
-            "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
-            "lineHeight": "{ref.line-height.default}",
-            "fontSize": "{ref.typescale.label.xs}",
-            "letterSpacing": "{ref.letter-spacing.default}",
-            "paragraphSpacing": "{ref.paragraph-spacing.default}"
-          },
-          "type": "typography",
-          "description": "label xsmall"
         }
       },
       "display": {
         "d1": {
           "value": {
             "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
+            "fontWeight": "{ref.typeface.weight-bold}",
             "lineHeight": "{ref.line-height.default}",
             "fontSize": "{ref.typescale.display.d1}",
             "letterSpacing": "{ref.letter-spacing.default}",
@@ -416,7 +452,7 @@
         "d2": {
           "value": {
             "fontFamily": "{ref.font-family.primary}",
-            "fontWeight": "{ref.typeface.weight-medium}",
+            "fontWeight": "{ref.typeface.weight-bold}",
             "lineHeight": "{ref.line-height.default}",
             "fontSize": "{ref.typescale.display.d2}",
             "letterSpacing": "{ref.letter-spacing.default}",
@@ -424,6 +460,22 @@
           },
           "type": "typography",
           "description": "display 2"
+        }
+      }
+    }
+  },
+  "comp": {
+    "color": {
+      "cta": {
+        "hover-focus": {
+          "value": "{ref.palette.primary.30}",
+          "type": "color",
+          "description": "Hover and focus fill for CTA"
+        },
+        "pressed": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color",
+          "description": "pressed fill for cta"
         }
       }
     }

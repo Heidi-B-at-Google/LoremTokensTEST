@@ -97,20 +97,6 @@
         "value": "0 {sys.spacer.25} {sys.spacer.25}",
         "type": "spacing"
       }
-    },
-    "type": {
-      "h1": {
-        "value": {
-          "fontFamilies": "{ref.font-family.primary}",
-          "fontWeights": "{ref.typeface.weight-bold}",
-          "fontSizes": "{ref.typescale.heading.h1}",
-          "letterSpacing": "{ref.letter-spacing.default}",
-          "paragraphSpacing": "{ref.paragraph-spacing.default}",
-          "lineHeights": "{ref.line-height.default}"
-        },
-        "type": "composition",
-        "description": "h1 composite token"
-      }
     }
   },
   "ref": {
@@ -119,45 +105,35 @@
         "h1": {
           "value": "{ref.typescale.base}*5.5",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 1"
         },
         "h2": {
           "value": "{ref.typescale.base}*4",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 2"
         },
         "h3": {
-          "value": "{ref.typescale.base}*3.25",
+          "value": "{ref.typescale.base}*3",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 3"
         },
         "h4": {
-          "value": "{ref.typescale.base}*2.75",
-          "type": "fontSizes",
-          "description": "headline"
-        },
-        "h5": {
           "value": "{ref.typescale.base}*2",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 2"
         },
-        "h6": {
+        "h5": {
           "value": "{ref.typescale.base}*1.5",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 5"
         },
-        "h7": {
+        "h6": {
           "value": "{ref.typescale.base}*1.25",
           "type": "fontSizes",
-          "description": "headline"
+          "description": "headline 6"
         }
       },
       "body": {
-        "xs": {
-          "value": "{ref.typescale.base}*.75",
-          "type": "fontSizes",
-          "description": "xs body"
-        },
         "sm": {
           "value": "{ref.typescale.base}*0.875",
           "type": "fontSizes",
@@ -175,13 +151,8 @@
         }
       },
       "label": {
-        "xs": {
-          "value": "{ref.typescale.body.sm}*0.75",
-          "type": "fontSizes",
-          "description": "CTA / eyebrow"
-        },
         "sm": {
-          "value": "{ref.typescale.body.sm}*0.875",
+          "value": "{ref.typescale.base}*.875",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
         },
@@ -191,21 +162,9 @@
           "description": "label md"
         },
         "lg": {
-          "value": "{ref.typescale.base}*1.25",
+          "value": "{ref.typescale.base}*1.125",
           "type": "fontSizes",
           "description": "CTA / eyebrow"
-        }
-      },
-      "body-metadata": {
-        "sm": {
-          "value": "{ref.typescale.base}*0.625",
-          "type": "fontSizes",
-          "description": "legal / footer"
-        },
-        "md": {
-          "value": "{ref.typescale.base}*0.75",
-          "type": "fontSizes",
-          "description": "legal / footer"
         }
       },
       "base": {
@@ -807,12 +766,16 @@
       }
     },
     "line-height": {
-      "default": {
-        "value": "110%",
+      "tight": {
+        "value": "115%",
         "type": "lineHeights"
       },
-      "body": {
-        "value": "110%",
+      "default": {
+        "value": "125%",
+        "type": "lineHeights"
+      },
+      "loose": {
+        "value": "150%",
         "type": "lineHeights"
       }
     },
@@ -831,12 +794,20 @@
       }
     },
     "typeface": {
+      "weight-light": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
       "weight-regular": {
         "value": "Regular",
         "type": "fontWeights"
       },
       "weight-medium": {
         "value": "Medium",
+        "type": "fontWeights"
+      },
+      "weight-semibold": {
+        "value": "Semibold",
         "type": "fontWeights"
       },
       "weight-bold": {
@@ -853,11 +824,7 @@
     },
     "paragraph-spacing": {
       "default": {
-        "value": "32",
-        "type": "paragraphSpacing"
-      },
-      "h2": {
-        "value": "26",
+        "value": "0",
         "type": "paragraphSpacing"
       }
     },
