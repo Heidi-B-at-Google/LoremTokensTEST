@@ -190,6 +190,11 @@
           "value": "{ref.palette.neutral-variant.90}",
           "type": "color",
           "description": "alternate surface color"
+        },
+        "inverse-surface": {
+          "value": "{ref.palette.neutral.20}",
+          "type": "color",
+          "description": "high-emphasis surface light mode"
         }
       },
       "system": {
@@ -212,19 +217,9 @@
           "value": "{ref.palette.blue.60}",
           "type": "color",
           "description": "focus ring state layer"
-        },
-        "drop-shadow": {
-          "value": "{ref.palette.neutral.30}",
-          "type": "color",
-          "description": "drop shadow base color"
-        },
-        "inverse-surface": {
-          "value": "{ref.palette.neutral.20}",
-          "type": "color",
-          "description": "high emphasis surface"
         }
       },
-      "opacity": {
+      "state": {
         "state-layer": {
           "hover": {
             "value": "{ref.palette.neutral.10}",
@@ -279,6 +274,20 @@
                   "value": "0.12",
                   "space": "lch"
                 }
+              }
+            }
+          }
+        },
+        "drop-shadow": {
+          "value": "{ref.palette.neutral.30}",
+          "type": "color",
+          "description": "drop-shadow",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.25",
+                "space": "lch"
               }
             }
           }
@@ -461,6 +470,30 @@
           "type": "typography",
           "description": "display 2"
         }
+      }
+    },
+    "drop-shadow": {
+      "low": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "4",
+            "color": "{ref.palette.neutral.0}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "{ref.palette.neutral.0}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "low emphasis drop shaow"
       }
     }
   },
