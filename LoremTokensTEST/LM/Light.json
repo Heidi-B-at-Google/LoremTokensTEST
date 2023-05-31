@@ -2,7 +2,7 @@
   "sys": {
     "color": {
       "primary": {
-        "default": {
+        "primary": {
           "value": "{ref.palette.primary.40}",
           "type": "color",
           "description": "primary"
@@ -56,28 +56,32 @@
         }
       },
       "error": {
-        "default": {
+        "error": {
           "value": "{ref.palette.red.40}",
-          "type": "color"
+          "type": "color",
+          "description": "Error icons, outlines, states, etc"
         },
         "on-error": {
           "value": "{ref.palette.red.100}",
-          "type": "color"
+          "type": "color",
+          "description": "on-error"
         },
         "error-container": {
           "value": "{ref.palette.red.80}",
-          "type": "color"
+          "type": "color",
+          "description": "error-container"
         },
         "on-error-container": {
           "value": "{ref.palette.red.10}",
-          "type": "color"
+          "type": "color",
+          "description": "on-error-container"
         }
       },
       "success": {
-        "default": {
+        "success": {
           "value": "{ref.palette.green.40}",
           "type": "color",
-          "description": "Success icons, outlines, highlights, etc"
+          "description": "Success icons, outlines, states, etc"
         },
         "on-success": {
           "value": "{ref.palette.green.100}",
@@ -93,10 +97,10 @@
         }
       },
       "caution": {
-        "default": {
+        "caution": {
           "value": "{ref.palette.yellow.40}",
           "type": "color",
-          "description": "Caution icons, outlines, highlights, etc"
+          "description": "Caution icons, outlines, states, etc"
         },
         "on-caution": {
           "value": "{ref.palette.yellow.100}",
@@ -112,10 +116,10 @@
         }
       },
       "warning": {
-        "default": {
+        "warning": {
           "value": "{ref.palette.orange.40}",
           "type": "color",
-          "description": "Warning icons, outlines, highlights, etc"
+          "description": "Warning icons, outlines, states, etc"
         },
         "on-warning": {
           "value": "{ref.palette.orange.100}",
@@ -225,20 +229,6 @@
             "value": "{ref.palette.neutral.10}",
             "type": "color",
             "description": "hover state layer",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.08",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "focus": {
-            "value": "{ref.palette.neutral.10}",
-            "type": "color",
-            "description": "focus state layer",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
