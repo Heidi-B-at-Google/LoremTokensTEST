@@ -289,72 +289,72 @@
         "heading": {
           "h1": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h1}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 1"
           },
           "h2": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h2}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 2"
           },
           "h3": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h3}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h3}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 3"
           },
           "h4": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h4}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h4}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 4"
           },
           "h5": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h5}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h5}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 5"
           },
           "h6": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.heading.h6}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h6}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "header 6"
@@ -363,36 +363,36 @@
         "body": {
           "md": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-regular}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.base}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.base}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "body medium"
           },
           "lg": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-regular}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.body.lg}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.body.lg}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "body large"
           },
           "sm": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-regular}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.body.sm}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.body.sm}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "body small"
@@ -401,36 +401,36 @@
         "label": {
           "md": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-medium}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.label.md}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.md}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "label medium"
           },
           "lg": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-medium}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.label.lg}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.lg}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "label large"
           },
           "sm": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-medium}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.label.sm}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.sm}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "label small"
@@ -439,24 +439,24 @@
         "display": {
           "d1": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.display.d1}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "display 1"
           },
           "d2": {
             "value": {
-              "fontFamily": "{ref.font-family.primary}",
-              "fontWeight": "{ref.typeface.weight-bold}",
-              "lineHeight": "{ref.line-height.default}",
-              "fontSize": "{ref.typescale.display.d2}",
-              "letterSpacing": "{ref.letter-spacing.default}",
-              "paragraphSpacing": "{ref.paragraph-spacing.default}"
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
             "description": "display 2"
