@@ -98,6 +98,13 @@
           "value": "0 {lrm.lrm.sys.spacer.25} {sys.spacer.25}",
           "type": "spacing"
         }
+      },
+      "border-width": {
+        "sm": {
+          "value": "2",
+          "type": "borderWidth",
+          "description": "medium emphasis border"
+        }
       }
     },
     "ref": {
