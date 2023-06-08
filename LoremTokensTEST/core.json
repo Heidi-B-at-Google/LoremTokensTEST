@@ -89,16 +89,6 @@
           "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
         }
       },
-      "padding": {
-        "top-horizontal": {
-          "value": "{lrm.lrm.ref.scale.base} {ref.scale.base} 0",
-          "type": "spacing"
-        },
-        "horizontal-bottom": {
-          "value": "0 {lrm.lrm.sys.spacer.25} {sys.spacer.25}",
-          "type": "spacing"
-        }
-      },
       "border-width": {
         "sm": {
           "value": "2",
@@ -844,7 +834,7 @@
       }
     },
     "comp": {
-      "padding": {
+      "padding-TEST": {
         "CTA": {
           "value": "12px 16px 12px 16px",
           "type": "spacing",
