@@ -11,50 +11,12 @@
         "type": "spacing",
         "description": "Vertical space between items"
       },
-      "75": {
-        "value": "{ref.scale.base}*0.75",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "100": {
-        "value": "{ref.scale.base}",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "150": {
-        "value": "{ref.scale.base}*1.5",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "200": {
-        "value": "{ref.scale.base}*2",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "300": {
-        "value": "{ref.scale.base}*3",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "400": {
-        "value": "{ref.scale.base}*4",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "600": {
-        "value": "{ref.scale.base}*6",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "900": {
-        "value": "{ref.scale.base}*9",
-        "type": "spacing",
-        "description": "Vertical space between items"
-      },
-      "1600": {
-        "value": "{ref.scale.base}*16",
-        "type": "spacing",
-        "description": "Vertical space between items"
+      "border-width": {
+        "sm": {
+          "value": "2",
+          "type": "borderWidth",
+          "description": "medium emphasis border"
+        }
       }
     },
     "border-radius": {
@@ -88,14 +50,23 @@
         "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
       }
     },
-    "padding": {
-      "top-horizontal": {
-        "value": "{ref.scale.base} {ref.scale.base} 0",
-        "type": "spacing"
-      },
-      "horizontal-bottom": {
-        "value": "0 {sys.spacer.25} {sys.spacer.25}",
-        "type": "spacing"
+    "comp": {
+      "padding-TEST": {
+        "CTA": {
+          "value": "12px 16px 12px 16px",
+          "type": "spacing",
+          "description": "top, right, bottom, left"
+        },
+        "icon-button-sm": {
+          "value": "12px 12px",
+          "type": "spacing",
+          "description": "sm/md icon button"
+        },
+        "icon-button-lg": {
+          "value": "24px 24px",
+          "type": "spacing",
+          "description": "lg icon button\n"
+        }
       }
     }
   }
