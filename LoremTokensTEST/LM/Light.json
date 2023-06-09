@@ -216,23 +216,23 @@
         "state": {
           "state-layer": {
             "hover": {
-              "value": "{lrm.ref.palette.neutral.10}",
+              "value": "{lrm.ref.palette.neutral.0}",
               "type": "color",
               "description": "hover state layer",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.12",
+                    "value": "0.08",
                     "space": "lch"
                   }
                 }
               }
             },
-            "hover-focus": {
-              "value": "{lrm.ref.palette.neutral.10}",
+            "focus": {
+              "value": "{lrm.ref.palette.neutral.0}",
               "type": "color",
-              "description": "hover-focus state layer",
+              "description": "focus state layer",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -244,7 +244,7 @@
               }
             },
             "pressed": {
-              "value": "{lrm.ref.palette.neutral.10}",
+              "value": "{lrm.ref.palette.neutral.0}",
               "type": "color",
               "description": "pressed state layer",
               "$extensions": {
@@ -254,20 +254,6 @@
                     "value": "0.12",
                     "space": "lch"
                   }
-                }
-              }
-            }
-          },
-          "drop-shadow": {
-            "value": "{lrm.ref.palette.neutral.30}",
-            "type": "color",
-            "description": "drop-shadow",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.25",
-                  "space": "lch"
                 }
               }
             }
@@ -512,37 +498,3 @@
         }
       }
     }
-  },
-  "comp": {
-    "color": {
-      "cta": {
-        "hover-focus": {
-          "value": "{lrm.ref.palette.primary.30}",
-          "type": "color",
-          "description": "Hover and focus fill for CTA"
-        },
-        "pressed": {
-          "value": "{lrm.ref.palette.primary.10}",
-          "type": "color",
-          "description": "pressed fill for cta"
-        }
-      }
-    }
-  },
-  "comp": {
-    "color": {
-      "cta": {
-        "hover-focus": {
-          "value": "{ref.palette.primary.30}",
-          "type": "color",
-          "description": "Hover and focus fill for CTA"
-        },
-        "pressed": {
-          "value": "{ref.palette.primary.10}",
-          "type": "color",
-          "description": "pressed fill for cta"
-        }
-      }
-    }
-  }
-}
