@@ -1,0 +1,532 @@
+{
+  "lrm": {
+    "sys": {
+      "color": {
+        "3": {
+          "value": "{ref.palette.neutral.90}",
+          "type": "color",
+          "description": "surface3",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.1",
+                "space": "lch",
+                "color": "{ref.palette.neutral.100}"
+              }
+            }
+          }
+        },
+        "primary": {
+          "primary": {
+            "value": "{lrm.ref.palette.primary.40}",
+            "type": "color",
+            "description": "primary"
+          },
+          "on-primary": {
+            "value": "{lrm.ref.palette.primary.100}",
+            "type": "color",
+            "description": "on-primary"
+          },
+          "primary-container": {
+            "value": "{lrm.ref.palette.primary.90}",
+            "type": "color",
+            "description": "primary-container"
+          },
+          "on-primary-container": {
+            "value": "{lrm.ref.palette.primary.10}",
+            "type": "color",
+            "description": "on-primary-container"
+          },
+          "gradient": {
+            "value": "linear-gradient(45deg, #ffffff 0%, #B9C4C7 50%, #000000 100%)",
+            "type": "color",
+            "description": "option for brand color gradient"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{lrm.ref.palette.secondary.40}",
+            "type": "color",
+            "description": "secondary\n"
+          },
+          "on-secondary": {
+            "value": "{lrm.ref.palette.secondary.100}",
+            "type": "color",
+            "description": "on-secondary\n"
+          },
+          "secondary-container": {
+            "value": "{lrm.ref.palette.secondary.90}",
+            "type": "color",
+            "description": "secondary container"
+          },
+          "on-secondary-container": {
+            "value": "{lrm.ref.palette.secondary.10}",
+            "type": "color",
+            "description": "on-secondary-container\n"
+          },
+          "gradient": {
+            "value": "linear-gradient(45deg, #ffffff 0%, #939094 50%, #1F1B1B 100%)",
+            "type": "color",
+            "description": "option if brand has secondary gradient"
+          }
+        },
+        "feedback": {
+          "error": {
+            "value": "{lrm.ref.palette.red.40}",
+            "type": "color",
+            "description": "Error icons, outlines, states, etc"
+          },
+          "on-error": {
+            "value": "{lrm.ref.palette.red.100}",
+            "type": "color",
+            "description": "on-error"
+          },
+          "error-container": {
+            "value": "{lrm.ref.palette.red.80}",
+            "type": "color",
+            "description": "error-container"
+          },
+          "on-error-container": {
+            "value": "{lrm.ref.palette.red.10}",
+            "type": "color",
+            "description": "on-error-container"
+          },
+          "success": {
+            "value": "{lrm.ref.palette.green.40}",
+            "type": "color",
+            "description": "Success icons, outlines, states, etc"
+          },
+          "on-success": {
+            "value": "{lrm.ref.palette.green.100}",
+            "type": "color"
+          },
+          "success-container": {
+            "value": "{lrm.ref.palette.green.90}",
+            "type": "color"
+          },
+          "on-success-container": {
+            "value": "{lrm.ref.palette.green.10}",
+            "type": "color"
+          },
+          "caution": {
+            "value": "{lrm.ref.palette.yellow.40}",
+            "type": "color",
+            "description": "Caution icons, outlines, states, etc"
+          },
+          "on-caution": {
+            "value": "{lrm.ref.palette.yellow.100}",
+            "type": "color"
+          },
+          "caution-container": {
+            "value": "{lrm.ref.palette.yellow.90}",
+            "type": "color"
+          },
+          "on-caution-container": {
+            "value": "{lrm.ref.palette.yellow.10}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "0": {
+            "value": "{lrm.ref.palette.primary.100}",
+            "type": "color",
+            "description": "Base"
+          },
+          "1": {
+            "value": "{lrm.ref.palette.primary.99}",
+            "type": "color",
+            "description": "base color"
+          },
+          "2": {
+            "value": "{lrm.ref.palette.neutral.90}",
+            "type": "color",
+            "description": "surface2",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.35",
+                  "space": "lch",
+                  "color": "{ref.palette.neutral.100}"
+                }
+              }
+            }
+          },
+          "3": {
+            "value": "{lrm.ref.palette.neutral.90}",
+            "type": "color",
+            "description": "surface3",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.1",
+                  "space": "lch",
+                  "color": "{ref.palette.neutral.100}"
+                }
+              }
+            }
+          },
+          "surface-variant": {
+            "value": "{lrm.ref.palette.neutral-variant.90}",
+            "type": "color",
+            "description": "alternate surface color"
+          },
+          "on-surface": {
+            "value": "{lrm.ref.palette.primary.10}",
+            "type": "color",
+            "description": "high emphasis content on all surface colors"
+          },
+          "on-surface-variant": {
+            "value": "{lrm.ref.palette.neutral-variant.30}",
+            "type": "color",
+            "description": "medium-emphasis content on all surfaces"
+          },
+          "inverse-surface": {
+            "1": {
+              "value": "{lrm.ref.palette.neutral.30}",
+              "type": "color",
+              "description": "Medium-emphasis:\n\"persistent dark-mode\" surface for light mode contrast moment"
+            },
+            "2": {
+              "value": "{lrm.ref.palette.neutral.20}",
+              "type": "color",
+              "description": "High-emphasis:\n\"persistent dark-mode\" surface for light mode contrast moment"
+            }
+          },
+          "on-inverse-surface": {
+            "value": "{lrm.ref.palette.primary.100}",
+            "type": "color",
+            "description": "high-emphasis content on all inverse surfaces"
+          },
+          "on-inverse-surface-variant": {
+            "value": "{lrm.ref.palette.neutral.99}",
+            "type": "color",
+            "description": "medium-emphasis content on all inverse surfaces"
+          }
+        },
+        "system": {
+          "disabled": {
+            "value": "{lrm.ref.palette.neutral.70}",
+            "type": "color",
+            "description": "disabled containers/icons\n"
+          },
+          "disabled-container": {
+            "value": "{lrm.ref.palette.primary.99}",
+            "type": "color",
+            "description": "disabled containers/icons\n"
+          },
+          "separator": {
+            "value": "{lrm.ref.palette.neutral.95}",
+            "type": "color",
+            "description": "dividers, separators"
+          },
+          "focus-ring": {
+            "value": "{lrm.ref.palette.blue.60}",
+            "type": "color",
+            "description": "focus ring state layer"
+          }
+        },
+        "state": {
+          "state-layer": {
+            "hover": {
+              "value": "{lrm.ref.palette.neutral.10}",
+              "type": "color",
+              "description": "hover state layer",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "hover-focus": {
+              "value": "{lrm.ref.palette.neutral.10}",
+              "type": "color",
+              "description": "hover-focus state layer",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.18",
+                    "space": "lch"
+                  }
+                }
+              }
+            },
+            "pressed": {
+              "value": "{lrm.ref.palette.neutral.10}",
+              "type": "color",
+              "description": "pressed state layer",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "lch"
+                  }
+                }
+              }
+            }
+          },
+          "drop-shadow": {
+            "value": "{lrm.ref.palette.neutral.30}",
+            "type": "color",
+            "description": "drop-shadow",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.25",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "on-surface-default": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color",
+          "description": "high emphasis content on surface"
+        },
+        "on-surface-variant": {
+          "value": "{ref.palette.neutral-variant.30}",
+          "type": "color",
+          "description": "on surface variant"
+        },
+        "on-surface-2": {
+          "value": "{ref.palette.neutral-variant.10}",
+          "type": "color",
+          "description": "typography and medium emphasis elements on surfaces"
+        },
+        "surface-variant": {
+          "value": "{ref.palette.neutral-variant.90}",
+          "type": "color",
+          "description": "alternate surface color"
+        }
+      },
+      "typography": {
+        "heading": {
+          "h1": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 1"
+          },
+          "h2": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 2"
+          },
+          "h3": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h3}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 3"
+          },
+          "h4": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h4}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 4"
+          },
+          "h5": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h5}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 5"
+          },
+          "h6": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.heading.h6}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "header 6"
+          }
+        },
+        "body": {
+          "md": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.base}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "body medium"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.body.lg}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "body large"
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.body.sm}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "body small"
+          }
+        },
+        "label": {
+          "md": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.md}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "label medium"
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.lg}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "label large"
+          },
+          "sm": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.sm}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "label small"
+          }
+        },
+        "display": {
+          "d1": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 1"
+          },
+          "d2": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 2"
+          }
+        }
+      },
+      "drop-shadow": {
+        "low": {
+          "value": [
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "8",
+              "spread": "4",
+              "color": "{lrm.ref.palette.neutral.0}",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "2",
+              "blur": "8",
+              "spread": "0",
+              "color": "{lrm.ref.palette.neutral.0}",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "low emphasis drop shaow"
+        }
+      }
+    }
+  },
+  "comp": {
+    "color": {
+      "cta": {
+        "hover-focus": {
+          "value": "{ref.palette.primary.30}",
+          "type": "color",
+          "description": "Hover and focus fill for CTA"
+        },
+        "pressed": {
+          "value": "{ref.palette.primary.10}",
+          "type": "color",
+          "description": "pressed fill for cta"
+        }
+      }
+    }
+  }
+}
