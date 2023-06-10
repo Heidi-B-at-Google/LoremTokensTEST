@@ -3,8 +3,8 @@
     "id": "8d508283eb46e051493cd8a49da2fba9344b99ca",
     "name": "Lorem Core - Light",
     "selectedTokenSets": {
-      "core": "source",
-      "LM/Light": "enabled"
+      "LM/Light": "enabled",
+      "Core": "source"
     },
     "$figmaStyleReferences": {
       "sys.color.primary.on-primary": "S:a567f89e5f88c8814df3f5430f90472ff0cd5050,",
@@ -44,8 +44,8 @@
     "id": "bde03697fa9f3d20bc1a2a88ea84c2b18277b227",
     "name": "Lorem Core - Dark",
     "selectedTokenSets": {
-      "core": "source",
-      "LM/Dark": "enabled"
+      "LM/Dark": "enabled",
+      "Core": "source"
     },
     "$figmaStyleReferences": {
       "sys.color.primary.on-primary": "S:a567f89e5f88c8814df3f5430f90472ff0cd5050,",
@@ -86,9 +86,9 @@
     "id": "d3a30183ac656ae3c4afd1cd1bc056c7af1b518b",
     "name": "Lorem Core",
     "selectedTokenSets": {
-      "core": "source",
       "LM/Light": "enabled",
-      "LM/Dark": "enabled"
+      "LM/Dark": "enabled",
+      "Core": "source"
     },
     "$figmaStyleReferences": {
       "sys.color.primary.on-primary": "S:a567f89e5f88c8814df3f5430f90472ff0cd5050,",
