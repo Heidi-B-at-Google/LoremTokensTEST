@@ -2,21 +2,6 @@
   "lrm": {
     "sys": {
       "color": {
-        "3": {
-          "value": "{ref.palette.neutral.90}",
-          "type": "color",
-          "description": "surface3",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{ref.palette.neutral.100}"
-              }
-            }
-          }
-        },
         "primary": {
           "primary": {
             "value": "{lrm.ref.palette.primary.40}",
@@ -287,26 +272,6 @@
               }
             }
           }
-        },
-        "on-surface-default": {
-          "value": "{ref.palette.primary.10}",
-          "type": "color",
-          "description": "high emphasis content on surface"
-        },
-        "on-surface-variant": {
-          "value": "{ref.palette.neutral-variant.30}",
-          "type": "color",
-          "description": "on surface variant"
-        },
-        "on-surface-2": {
-          "value": "{ref.palette.neutral-variant.10}",
-          "type": "color",
-          "description": "typography and medium emphasis elements on surfaces"
-        },
-        "surface-variant": {
-          "value": "{ref.palette.neutral-variant.90}",
-          "type": "color",
-          "description": "alternate surface color"
         }
       },
       "typography": {
@@ -509,22 +474,6 @@
           ],
           "type": "boxShadow",
           "description": "low emphasis drop shaow"
-        }
-      }
-    }
-  },
-  "comp": {
-    "color": {
-      "cta": {
-        "hover-focus": {
-          "value": "{ref.palette.primary.30}",
-          "type": "color",
-          "description": "Hover and focus fill for CTA"
-        },
-        "pressed": {
-          "value": "{ref.palette.primary.10}",
-          "type": "color",
-          "description": "pressed fill for cta"
         }
       }
     }
