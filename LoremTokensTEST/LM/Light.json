@@ -302,11 +302,6 @@
           "value": "{ref.palette.neutral-variant.10}",
           "type": "color",
           "description": "typography and medium emphasis elements on surfaces"
-        },
-        "surface-variant": {
-          "value": "{ref.palette.neutral-variant.90}",
-          "type": "color",
-          "description": "alternate surface color"
         }
       },
       "typography": {
