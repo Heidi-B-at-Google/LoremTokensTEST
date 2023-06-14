@@ -275,6 +275,32 @@
         }
       },
       "typography": {
+        "display": {
+          "d1": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 1"
+          },
+          "d2": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 2"
+          }
+        },
         "heading": {
           "h1": {
             "value": {
@@ -350,6 +376,18 @@
           }
         },
         "body": {
+          "sm": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.body.sm}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "body small"
+          },
           "md": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
@@ -373,21 +411,21 @@
             },
             "type": "typography",
             "description": "body large"
-          },
+          }
+        },
+        "label": {
           "sm": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
               "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.body.sm}",
+              "fontSize": "{lrm.ref.typescale.label.sm}",
               "letterSpacing": "{lrm.ref.letter-spacing.default}",
               "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
             },
             "type": "typography",
-            "description": "body small"
-          }
-        },
-        "label": {
+            "description": "label small"
+          },
           "md": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
@@ -411,44 +449,6 @@
             },
             "type": "typography",
             "description": "label large"
-          },
-          "sm": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-medium}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.label.sm}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "label small"
-          }
-        },
-        "display": {
-          "d1": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-bold}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.display.d1}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "display 1"
-          },
-          "d2": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-bold}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.display.d2}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "display 2"
           }
         }
       },
