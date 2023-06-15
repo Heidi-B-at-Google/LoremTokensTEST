@@ -178,17 +178,17 @@
               "value": "{lrm.ref.palette.neutral.20}",
               "type": "color",
               "description": "High-emphasis:\n\"persistent dark-mode\" surface for light mode contrast moment"
+            },
+            "on-inverse-surface": {
+              "value": "{lrm.ref.palette.primary.100}",
+              "type": "color",
+              "description": "high-emphasis content on all inverse surfaces"
+            },
+            "on-inverse-surface-variant": {
+              "value": "{lrm.ref.palette.neutral.99}",
+              "type": "color",
+              "description": "medium-emphasis content on all inverse surfaces"
             }
-          },
-          "on-inverse-surface": {
-            "value": "{lrm.ref.palette.primary.100}",
-            "type": "color",
-            "description": "high-emphasis content on all inverse surfaces"
-          },
-          "on-inverse-surface-variant": {
-            "value": "{lrm.ref.palette.neutral.99}",
-            "type": "color",
-            "description": "medium-emphasis content on all inverse surfaces"
           }
         },
         "system": {
@@ -215,59 +215,119 @@
         },
         "state": {
           "state-layer": {
-            "hover": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "hover state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "lch"
+            "black": {
+              "default": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "fully transparent default state layer",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.0",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "hover": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "hover state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.08",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "focus": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "focus state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.12",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "pressed": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "pressed state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.18",
+                      "space": "lch"
+                    }
                   }
                 }
               }
             },
-            "hover-focus": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "hover-focus state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.18",
-                    "space": "lch"
+            "white": {
+              "default": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "fully transparent default state layer",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.0",
+                      "space": "lch"
+                    }
                   }
                 }
-              }
-            },
-            "pressed": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "pressed state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "lch"
+              },
+              "hover": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "hover state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.08",
+                      "space": "lch"
+                    }
                   }
                 }
-              }
-            }
-          },
-          "drop-shadow": {
-            "value": "{lrm.ref.palette.neutral.30}",
-            "type": "color",
-            "description": "drop-shadow",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.25",
-                  "space": "lch"
+              },
+              "focus": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "focus state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.12",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "pressed": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "pressed state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.18",
+                      "space": "lch"
+                    }
+                  }
                 }
               }
             }
