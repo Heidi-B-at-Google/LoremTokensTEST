@@ -178,17 +178,17 @@
               "value": "{lrm.ref.palette.neutral.20}",
               "type": "color",
               "description": "High-emphasis:\n\"persistent dark-mode\" surface for light mode contrast moment"
+            },
+            "on-inverse-surface": {
+              "value": "{lrm.ref.palette.primary.100}",
+              "type": "color",
+              "description": "high-emphasis content on all inverse surfaces"
+            },
+            "on-inverse-surface-variant": {
+              "value": "{lrm.ref.palette.neutral.99}",
+              "type": "color",
+              "description": "medium-emphasis content on all inverse surfaces"
             }
-          },
-          "on-inverse-surface": {
-            "value": "{lrm.ref.palette.primary.100}",
-            "type": "color",
-            "description": "high-emphasis content on all inverse surfaces"
-          },
-          "on-inverse-surface-variant": {
-            "value": "{lrm.ref.palette.neutral.99}",
-            "type": "color",
-            "description": "medium-emphasis content on all inverse surfaces"
           }
         },
         "system": {
@@ -215,59 +215,119 @@
         },
         "state": {
           "state-layer": {
-            "hover": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "hover state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "lch"
+            "black": {
+              "default": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "fully transparent default state layer",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.0",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "hover": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "hover state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.08",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "focus": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "focus state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.12",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "pressed": {
+                "value": "{lrm.ref.palette.neutral.10}",
+                "type": "color",
+                "description": "pressed state layer. use on components with dark text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.18",
+                      "space": "lch"
+                    }
                   }
                 }
               }
             },
-            "hover-focus": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "hover-focus state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.18",
-                    "space": "lch"
+            "white": {
+              "default": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "fully transparent default state layer",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.0",
+                      "space": "lch"
+                    }
                   }
                 }
-              }
-            },
-            "pressed": {
-              "value": "{lrm.ref.palette.neutral.10}",
-              "type": "color",
-              "description": "pressed state layer",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.12",
-                    "space": "lch"
+              },
+              "hover": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "hover state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.08",
+                      "space": "lch"
+                    }
                   }
                 }
-              }
-            }
-          },
-          "drop-shadow": {
-            "value": "{lrm.ref.palette.neutral.30}",
-            "type": "color",
-            "description": "drop-shadow",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.25",
-                  "space": "lch"
+              },
+              "focus": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "focus state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.12",
+                      "space": "lch"
+                    }
+                  }
+                }
+              },
+              "pressed": {
+                "value": "{lrm.ref.palette.neutral.100}",
+                "type": "color",
+                "description": "pressed state layer. use on components with light text.",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.18",
+                      "space": "lch"
+                    }
+                  }
                 }
               }
             }
@@ -275,6 +335,32 @@
         }
       },
       "typography": {
+        "display": {
+          "d1": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d1}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 1"
+          },
+          "d2": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-bold}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.display.d2}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "display 2"
+          }
+        },
         "heading": {
           "h1": {
             "value": {
@@ -350,18 +436,6 @@
           }
         },
         "body": {
-          "md": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-regular}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.base}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "body medium"
-          },
           "lg": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
@@ -373,6 +447,18 @@
             },
             "type": "typography",
             "description": "body large"
+          },
+          "md": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-regular}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.base}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "body medium"
           },
           "sm": {
             "value": {
@@ -388,18 +474,6 @@
           }
         },
         "label": {
-          "md": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-medium}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.label.md}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "label medium"
-          },
           "lg": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
@@ -412,6 +486,18 @@
             "type": "typography",
             "description": "label large"
           },
+          "md": {
+            "value": {
+              "fontFamily": "{lrm.ref.font-family.primary}",
+              "fontWeight": "{lrm.ref.typeface.weight-medium}",
+              "lineHeight": "{lrm.ref.line-height.default}",
+              "fontSize": "{lrm.ref.typescale.label.md}",
+              "letterSpacing": "{lrm.ref.letter-spacing.default}",
+              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
+            },
+            "type": "typography",
+            "description": "label medium"
+          },
           "sm": {
             "value": {
               "fontFamily": "{lrm.ref.font-family.primary}",
@@ -423,32 +509,6 @@
             },
             "type": "typography",
             "description": "label small"
-          }
-        },
-        "display": {
-          "d1": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-bold}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.display.d1}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "display 1"
-          },
-          "d2": {
-            "value": {
-              "fontFamily": "{lrm.ref.font-family.primary}",
-              "fontWeight": "{lrm.ref.typeface.weight-bold}",
-              "lineHeight": "{lrm.ref.line-height.default}",
-              "fontSize": "{lrm.ref.typescale.display.d2}",
-              "letterSpacing": "{lrm.ref.letter-spacing.default}",
-              "paragraphSpacing": "{lrm.ref.paragraph-spacing.default}"
-            },
-            "type": "typography",
-            "description": "display 2"
           }
         }
       },
